@@ -1,6 +1,36 @@
+import i18next from "i18next";
 import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import LanguageOption from "./language-dropdown";
+import ReactFlagsSelect from "react-flags-select";
 
 function Header() {
+  const [selected, setSelected] = useState();
+  const { t } = useTranslation();
+
+  let helper = selected;
+  useEffect(() => {
+    if (selected === "GB") {
+      i18next.changeLanguage("en");
+      helper = "GB";
+      localStorage.setItem("helper", helper);
+    } else if (selected === "YE") {
+      i18next.changeLanguage("arb");
+      helper = "YE";
+      localStorage.setItem("helper", helper);
+    } else {
+      // i18next.changeLanguage("en");
+      // helper = "GB";
+      localStorage.getItem("helper");
+      setSelected(localStorage.getItem("helper"));
+    }
+  }, [selected]);
+
+  const handleClick = (e) => {
+    i18next.changeLanguage(e.target.value);
+  };
   return (
     <React.StrictMode>
       <div className="menubar">
@@ -37,7 +67,7 @@ function Header() {
                     <ul className="nav navbar-nav">
                       <li>
                         <a href="/#home" className="active">
-                          Home
+                          {t("Home")}
                         </a>
                       </li>
                       <li>
@@ -57,6 +87,20 @@ function Header() {
                       </li>
                       <li>
                         <a href="/#contact">Contact</a>
+                      </li>
+                      <li>
+                        <div className="d-flex align-items-center me-2">
+                          {/* <LanguageOption
+                            onChange={(e) => handleClick(e)}
+                          ></LanguageOption> */}
+                          <ReactFlagsSelect
+                            selected={selected ? selected : "GB"}
+                            onSelect={setSelected}
+                            placeholder="Select Language"
+                            countries={["GB", "YE"]}
+                            customLabels={{ GB: " ", YE: " " }}
+                          />
+                        </div>
                       </li>
                     </ul>
                   </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "./App.css";
 
 // import Router
@@ -17,20 +17,23 @@ import FormExample from "./Pages/FormExample";
 
 function App() {
   return (
-    <React.StrictMode>
-      <Router>
-        <Header />
-        <ScrollToTop>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/react-hooks" component={ReactHooks} />
-            <Route exact path="/ui-ux" component={UiUx} />
-            <Route exact path="/form-example" component={FormExample} />
-          </Switch>
-        </ScrollToTop>
-        <Footer />
-      </Router>
-    </React.StrictMode>
+    <Suspense fallback={<h1>Loading profile...</h1>}>
+      <React.StrictMode>
+        <Router>
+          <Header />
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/" component={Home} />
+
+              <Route exact path="/react-hooks" component={ReactHooks} />
+              <Route exact path="/ui-ux" component={UiUx} />
+              <Route exact path="/form-example" component={FormExample} />
+            </Switch>
+          </ScrollToTop>
+          <Footer />
+        </Router>
+      </React.StrictMode>
+    </Suspense>
   );
 }
 

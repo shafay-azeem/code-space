@@ -1,10 +1,13 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 const Home = () => {
   return (
     <React.StrictMode>
       <div className="main-page-content">
         <div id="home">
+          {/* <Suspense fallback={<h1>Loading profile...</h1>}>
+            <div id="particles-js"></div>
+          </Suspense> */}
           <div id="particles-js"></div>
           <div className="home-content-main">
             <div className="table-cell">
