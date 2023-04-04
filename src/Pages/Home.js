@@ -1,6 +1,9 @@
 import React, { Suspense } from "react";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t, i18n } = useTranslation();
+  document.body.dir = i18n.dir();
   return (
     <React.StrictMode>
       <div className="main-page-content">
@@ -8,7 +11,7 @@ const Home = () => {
           {/* <Suspense fallback={<h1>Loading profile...</h1>}>
             <div id="particles-js"></div>
           </Suspense> */}
-          <div id="particles-js"></div>
+          {/* <div id="particles-js"></div> */}
           <div className="home-content-main">
             <div className="table-cell">
               <div className="container">
@@ -103,17 +106,7 @@ const Home = () => {
                       <h3>What I do</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>
-                        At present time I'm working on a multi-role, as a Web
-                        Developer I design and create various websites. And as
-                        UI/UX Designer I create many designs for Web
-                        Applications and Mobile applications. I create the
-                        beauty of the site. I'm responsible for the site's
-                        technical aspects, such as its performance and capacity,
-                        which are measures of a website's speed and how much
-                        traffic the site can handle. In addition, I also create
-                        content for the site.
-                      </p>
+                      <p>{t("WhatIDo")}</p>
                     </div>
                   </div>
                 </div>

@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-group button {
+  /* background-image: linear-gradient(to right, #01373c, #005c63, #01373b); */
+  background-color: none;
+  border: none;
+}

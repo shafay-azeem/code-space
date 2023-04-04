@@ -5,10 +5,12 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageOption from "./language-dropdown";
 import ReactFlagsSelect from "react-flags-select";
+import yemen from "../flag-ye-svgrepo-com.svg";
+import england from "../flag-gb-svgrepo-com.svg";
 
 function Header() {
   const [selected, setSelected] = useState();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   let helper = selected;
   useEffect(() => {
@@ -29,8 +31,10 @@ function Header() {
   }, [selected]);
 
   const handleClick = (e) => {
-    i18next.changeLanguage(e.target.value);
+    i18next.changeLanguage(e);
   };
+
+  document.body.dir = i18n.dir();
   return (
     <React.StrictMode>
       <div className="menubar">
@@ -88,19 +92,28 @@ function Header() {
                       <li>
                         <a href="/#contact">Contact</a>
                       </li>
-                      <li>
-                        <div className="d-flex align-items-center me-2">
-                          {/* <LanguageOption
-                            onChange={(e) => handleClick(e)}
-                          ></LanguageOption> */}
-                          <ReactFlagsSelect
-                            selected={selected ? selected : "GB"}
-                            onSelect={setSelected}
-                            placeholder="Select Language"
-                            countries={["GB", "YE"]}
-                            customLabels={{ GB: " ", YE: " " }}
-                          />
-                        </div>
+                      <li style={{ marginTop: "8px", textAlign: "center" }}>
+                        <img
+                          src={yemen}
+                          style={{
+                            width: "30px",
+                            height: "30px",
+                            paddingLeft: "10px",
+                            cursor: "pointer",
+                          }}
+                          onClick={(e) => handleClick("arb")}
+                        />
+
+                        <img
+                          src={england}
+                          style={{
+                            width: "30px",
+                            height: "30px",
+                            paddingLeft: "10px",
+                            cursor: "pointer",
+                          }}
+                          onClick={(e) => handleClick("en")}
+                        />
                       </li>
                     </ul>
                   </div>

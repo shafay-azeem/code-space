@@ -14,10 +14,11 @@ import Home from "./Pages/Home";
 import ReactHooks from "./Pages/ReactHooks";
 import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
+import { useTranslation } from "react-i18next";
 
 function App() {
   return (
-    <Suspense fallback={<h1>Loading profile...</h1>}>
+    <Suspense>
       <React.StrictMode>
         <Router>
           <Header />
