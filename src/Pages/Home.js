@@ -755,7 +755,7 @@ const Home = () => {
                           className="fa fa-search exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>{t("Digital marketing")}</h3>
+                        <h3>{t("service5Heading")}</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
