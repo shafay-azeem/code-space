@@ -90,7 +90,7 @@ const UiUx = () => {
                         <img
                           src="assets/img/blog-details/ui-ux-process.jpg"
                           alt="Hooks are the most valuable things in react"
-                          class="blog-img"
+                          className="blog-img"
                         />
                         <br />
                         <br />

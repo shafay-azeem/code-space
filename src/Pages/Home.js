@@ -11,14 +11,14 @@ const Home = () => {
           {/* <Suspense fallback={<h1>Loading profile...</h1>}>
             <div id="particles-js"></div>
           </Suspense> */}
-          {/* <div id="particles-js"></div> */}
+          <div id="particles-js"></div>
           <div className="home-content-main">
             <div className="table-cell">
               <div className="container">
                 <div className="row home-row">
                   <div className="col-md-12 col-sm-12">
                     <div className="home-text wow fadeIn text-center">
-                      <h1 className="cd-headline clip is-full-width">
+                      {/* <h1 className="cd-headline clip is-full-width">
                         <span
                           className="cd-words-wrapper"
                           style={{ width: "266px", overflow: "hidden" }}
@@ -27,7 +27,7 @@ const Home = () => {
                           <b className="is-hidden">Developer</b>
                           <b className="is-visible">Designer</b>
                         </span>
-                      </h1>
+                      </h1> */}
                       <div className="about-social-icon text-center">
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".4s">
@@ -103,10 +103,13 @@ const Home = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>What I do</h3>
+                      <h3>{t("WhoWeAreHeading")}</h3>
+                      <h4>{t("HoldOnHeading")}</h4>
+                      <p>{t("HoldOnDescription")}</p>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>{t("WhatIDo")}</p>
+                      <p>{t("WhoWeAreDescription")}</p>
+                      <p>{t("WhoWeAreDescriptionSub")}</p>
                     </div>
                   </div>
                 </div>
@@ -675,12 +678,10 @@ const Home = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>Service List</h3>
+                      <h3>{t("servicesHeading")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>
-                        I always want to make things that make a difference.
-                      </p>
+                      <p>{t("servicesDescription")}</p>
                     </div>
                   </div>
                 </div>
@@ -698,16 +699,22 @@ const Home = () => {
                           className="fa fa-edit service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Design + Development</h3>
+                        <h3>{t("service2Heading")}</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Clean, modern designs - optimized for performance,
-                          search engines, and converting users to customers.
+                          {t("service2Point1")}
+                          <br></br>
+                          {t("service2Point2")}
+                          <br></br>
+                          {t("service2Point3")}
+                          <br></br>
+                          {t("service2Point4")}
                         </p>
                       </div>
                     </div>
                   </div>
+
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
@@ -721,62 +728,20 @@ const Home = () => {
                           className="fa fa-cart-plus exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>eCommerce</h3>
+                        <h3>{t("service4Heading")}</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Integration of eCommerce platforms, payment gateways,
-                          custom product templates, and more.
+                          {t("service4Point1")}
+                          <br></br>
+                          {t("service4Point2")}
+                          <br></br>
+                          {t("service4Point3")}
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/analytics.jpg"
-                          alt="analytics"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-tachometer service-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Analytics</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Get insights into who is browsing your site so that
-                          you can make smarter business decisions.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/mobile-friendly.jpg"
-                          alt="mobile-friendly"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-desktop exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Mobile-friendly</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          A responsive design makes your website accessible to
-                          all users, regardless of their device.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
@@ -790,35 +755,71 @@ const Home = () => {
                           className="fa fa-search exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Website Rank</h3>
+                        <h3>{t("Digital marketing")}</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Looking to improve your page performance, SEO, or user
-                          experience? Request a free site audit.
+                          {t("service5Point1")}
+                          <br></br>
+                          {t("service5Point2")}
+                          <br></br>
+                          {t("service5Point3")}
                         </p>
                       </div>
                     </div>
                   </div>
+                </div>
+
+                <div className="row love-row wow fadeIn">
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/content-management.jpg"
-                          alt="content-management"
+                          src="assets/img/service/mobile-friendly.jpg"
+                          alt="mobile-friendly"
                         />
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-file exp-icon"
+                          className="fa fa-desktop exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Content Management</h3>
+                        <h3>{t("service1Heading")}</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Custom theme and plugin development. Easily update
-                          site content with knowledge of powerful code.
+                          {t("service1Point1")}
+                          <br></br> {t("service1Point2")}
+                          <br></br>
+                          {t("service1Point3")}
+                          <br></br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 col-sm-6">
+                    <div className="service-details" data-wow-delay=".1s">
+                      <div className="service-head">
+                        <img
+                          src="assets/img/service/analytics.jpg"
+                          alt="analytics"
+                        />
+                      </div>
+                      <div className="service-bottom">
+                        <i
+                          className="fa fa-tachometer service-icon"
+                          aria-hidden="true"
+                        ></i>
+                        <h3>{t("service3Heading")}</h3>
+                        <div className="underline1"></div>
+                        <div className="underline2"></div>
+                        <p>
+                          {t("service1Point1")}
+                          <br></br> {t("service3Point1")}
+                          <br></br>
+                          {t("service3Point2")}
+                          <br></br>
                         </p>
                       </div>
                     </div>

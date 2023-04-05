@@ -1,4 +1,37 @@
 {
   "Home": "Home",
-  "WhatIDo": "At present time I'm working on a multi-role, as a Web Developer I design and create various websites. And as UI/UX Designer I create many designs for Web Applications and Mobile applications. I create the beauty of the site. I'm responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle. In addition, I also create content for the site."
+  "WhoWeAreDescription": "We are a leading company in the field of software, and we try our best to keep pace with the world with software and digital life through which business is facilitated, quality is increased, and it is 100% safe and easy to access.",
+  "WhoWeAreHeading": "Who we are",
+  "HoldOnHeading": "Hold on",
+  "HoldOnDescription": "We, CodeSpace, have many talents in pioneering software, designs, and branding with high professionalism",
+  "WhoWeAreDescriptionSub": "We care about the smallest details",
+
+  "servicesHeading": "Services",
+  "servicesDescription": "We are able to create anything you can think of",
+
+  "service1Heading": "Branding",
+  "service1Point1": "Custom graphic designs",
+  "service1Point2": "logo designs",
+  "service1Point3": "Professional branding",
+  "service1Point4": "Video animation",
+
+  "service2Heading": "Web Designs And Development",
+  "service2Point1": "Website Designing",
+  "service2Point2": "Website Development",
+  "service2Point3": "Website Maintenance",
+  "service2Point4": "Web Hosting",
+
+  "service3Heading": "Content Writing",
+  "service3Point1": "Writing content for websites",
+  "service3Point2": "Writing content for marketing",
+
+  "service4Heading": "Mobile Application",
+  "service4Point1": "Create custom mobile applications",
+  "service4Point2": "Mobile application development",
+  "service4Point3": "Synchronization of mobile applications with websites",
+
+  "service5Heading": "Digital Marketing",
+  "service5Point1": "Email marketing",
+  "service5Point2": "Search Engine Optimization (SEO)",
+  "service5Point3": "Social media marketing"
 }
