@@ -104,7 +104,16 @@ const Home = () => {
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
                       <h3>{t("WhoWeAreHeading")}</h3>
-                      <h4>{t("HoldOnHeading")}</h4>
+                      <h4
+                        style={{
+                          fontSize: "16px",
+                          letterSpacing: "1px",
+                          color: "#efd236",
+                          position: "relative",
+                        }}
+                      >
+                        {t("HoldOnHeading")}
+                      </h4>
                       <p>{t("HoldOnDescription")}</p>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
@@ -179,43 +188,36 @@ const Home = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! This is Sanajit</h3>
+                        <h3>{t("HomeTitle")}</h3>
+                        <h4
+                          style={{
+                            fontSize: "16px",
+                            letterSpacing: "1px",
+                            color: "#efd236",
+                            position: "relative",
+                          }}
+                        >
+                          {t("HomeSubTitle")}
+                        </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        I am a web developer from Kolkata, India. I enjoy
-                        building everything from small business sites to rich
-                        interactive web apps. if you are a business seeking a
-                        web presence or an employer looking to hire, you can get
-                        in touch with me{" "}
-                        <a className="underline2" href="#contact">
-                          {" "}
-                          here.
-                        </a>{" "}
-                        I design and build digital products with simple and
-                        beautiful code. I specialize in custom web theme
-                        development and love what I do.
-                        <br />
-                        <br />
-                        Since beginning my journey as a web developer in my
-                        college days, I've done remote work for agencies,
-                        consulted for startups, and collaborated with talented
-                        people to create digital products for both business and
-                        consumer use. I'm quietly confident, naturally curious,
-                        and perpetually working on improving my chops one design
-                        problem at a time.
+                        {t("HomeDescription")}
+
+                        <ul style={{ marginTop: "15px" }}>
+                          <li> {t("HomeDescriptionPoint1")}</li>
+                          <li> {t("HomeDescriptionPoint2")}</li>
+                          <li> {t("HomeDescriptionPoint3")}</li>
+                          <li> {t("HomeDescriptionPoint4")}</li>
+                          <li> {t("HomeDescriptionPoint5")}</li>
+                          <li> {t("HomeDescriptionPoint6")}</li>
+                          <li> {t("HomeDescriptionPoint7")}</li>
+                          <li> {t("HomeDescriptionPoint8")}</li>
+                          <li> {t("HomeDescriptionPoint9")}</li>
+                          <li> {t("HomeDescriptionPoint10")}</li>
+                        </ul>
                       </p>
-                      <a
-                        className="about-link-1"
-                        href="assets/cv/sanajit-jana-profile.pdf"
-                        target="_blank"
-                      >
-                        See Resume
-                      </a>
-                      <a className="about-link-2" href="#contact">
-                        Hire Me
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -700,6 +702,7 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>{t("service2Heading")}</h3>
+
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>

@@ -33,5 +33,19 @@
   "service5Heading": "Digital Marketing",
   "service5Point1": "Email marketing",
   "service5Point2": "Search Engine Optimization (SEO)",
-  "service5Point3": "Social media marketing"
+  "service5Point3": "Social media marketing",
+
+  "HomeTitle": "Your software house",
+  "HomeSubTitle": " We try hard to keep pace with the era and the digital renaissance in all fields",
+  "HomeDescription": "Here are some of the reasons that will make you move from paper transactions to digital",
+  "HomeDescriptionPoint1": "High data quality",
+  "HomeDescriptionPoint2": "High efficiency of services",
+  "HomeDescriptionPoint3": "Smooth service delivery",
+  "HomeDescriptionPoint4": "Quick data access",
+  "HomeDescriptionPoint5": "Lower cost and higher efficiency  ",
+  "HomeDescriptionPoint6": "Maintain the security of sensitive data",
+  "HomeDescriptionPoint7": "A secure backup",
+  "HomeDescriptionPoint8": "An electronic interface that represents your project professionally",
+  "HomeDescriptionPoint9": "Facilitate your access",
+  "HomeDescriptionPoint10": "Your electronic interface is your means of marketing your project"
 }
