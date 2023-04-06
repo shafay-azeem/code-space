@@ -1,12 +1,13 @@
 import React, { Suspense } from "react";
 import { useTranslation } from "react-i18next";
+import CountUp from "react-countup";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
   document.body.dir = i18n.dir();
   return (
     <React.StrictMode>
-      <div className="main-page-content">
+      <div className="container main-page-content">
         <div id="home">
           {/* <Suspense fallback={<h1>Loading profile...</h1>}>
             <div id="particles-js"></div>
@@ -124,48 +125,64 @@ const Home = () => {
                 </div>
                 <div className="row love-row wow fadeIn">
                   <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".1s">
+                    <div
+                      className="love-details"
+                      data-wow-delay=".1s"
+                      style={{ minHeight: "265px" }}
+                    >
                       <i
                         className="fa fa-pencil-square-o love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Working Hard</h3>
+                      <h3>{t("service3Heading")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Always believe in hard-work in my profession</p>
+                      <p>{t("ContentDescription")}</p>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".3s">
+                    <div
+                      className="love-details"
+                      data-wow-delay=".3s"
+                      style={{ minHeight: "265px" }}
+                    >
                       <i
                         className="fa fa-file-image-o love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>UI/UX Design</h3>
+                      <h3>{t("UI/UXHeading")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Love to do UI/UX design for new product</p>
+                      <p>{t("UI/UXDescription")}</p>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".2s">
+                    <div
+                      className="love-details"
+                      data-wow-delay=".2s"
+                      style={{ minHeight: "265px" }}
+                    >
                       <i
                         className="fa fa-globe love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Web Design</h3>
+                      <h3>{t("WebDesignHeading")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Passionate about Web Design from start</p>
+                      <p>{t("WebDesignDescription")}</p>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".4s">
+                    <div
+                      className="love-details"
+                      data-wow-delay=".4s"
+                      style={{ minHeight: "265px" }}
+                    >
                       <i className="fa fa-cog love-icon" aria-hidden="true"></i>
-                      <h3>Web Development</h3>
+                      <h3>{t("WebDevelopmentHeading")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Created all types of modern web development.</p>
+                      <p>{t("WebDevelopmentDescription")}</p>
                     </div>
                   </div>
                 </div>
@@ -233,7 +250,9 @@ const Home = () => {
                           className="fa fa-pencil-square-o stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0021</h3>
+                        <h3 className="Count">
+                          <CountUp end={347} duration={5} />
+                        </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Web Design Completed</p>
@@ -245,7 +264,10 @@ const Home = () => {
                           className="fa fa-crop stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0040</h3>
+                        <h3 className="Count">
+                          {" "}
+                          <CountUp end={200} duration={5} />
+                        </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>UI/UX Design Done</p>
@@ -257,7 +279,10 @@ const Home = () => {
                           className="fa fa-bolt stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0015</h3>
+                        <h3 className="Count">
+                          {" "}
+                          <CountUp end={220} duration={5} />
+                        </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Website Created</p>
@@ -269,7 +294,10 @@ const Home = () => {
                           className="fa fa-coffee stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0085</h3>
+                        <h3 className="Count">
+                          {" "}
+                          <CountUp end={1000} duration={5} />
+                        </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Cups Coffee Taken</p>

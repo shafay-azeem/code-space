@@ -48,5 +48,13 @@
   "HomeDescriptionPoint7": "نسخة احتياطية آمنة",
   "HomeDescriptionPoint8": "واجهة الكترونية تمثل مشروعك بأحترافية",
   "HomeDescriptionPoint9": "تسهيل الوصول اليك",
-  "HomeDescriptionPoint10": "واجهتك الإلكترونية هي وسيلتك في تسويق مشروعك"
+  "HomeDescriptionPoint10": "واجهتك الإلكترونية هي وسيلتك في تسويق مشروعك",
+
+  "UI/UXHeading": "تصميم UI / UX",
+  "UI/UXDescription": "نحن نهدف إلى تحسين المظهر الجمالي وسهولة استخدام الموقع أو التطبيق",
+  "ContentDescription": "يكتب مقالات إعلامية وجذابة لمساعدة العلامات التجارية في عرض منتجاتها",
+  "WebDesignHeading": "تصميم المواقع",
+  "WebDesignDescription": "نحدد أهداف موقع الويب أو صفحة الويب لجميع المستخدمين المحتملين",
+  "WebDevelopmentHeading": "تطوير الشبكة",
+  "WebDevelopmentDescription": "نجعل الناس على دراية بالخدمات و / أو المنتجات التي نقدمها"
 }

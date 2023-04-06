@@ -47,5 +47,13 @@
   "HomeDescriptionPoint7": "A secure backup",
   "HomeDescriptionPoint8": "An electronic interface that represents your project professionally",
   "HomeDescriptionPoint9": "Facilitate your access",
-  "HomeDescriptionPoint10": "Your electronic interface is your means of marketing your project"
+  "HomeDescriptionPoint10": "Your electronic interface is your means of marketing your project",
+
+  "UI/UXHeading": "UI/UX Design",
+  "UI/UXDescription": "We aim to improve the aesthetic appeal and usability of the website or app",
+  "ContentDescription": "Writes informative and engaging articles to help brands showcase their products",
+  "WebDesignHeading": "Web Design",
+  "WebDesignDescription": "We identifies the goals of a website or webpage for all potential user",
+  "WebDevelopmentHeading": "Web Development",
+  "WebDevelopmentDescription": "We make people aware of the services and/or products we are offering"
 }
