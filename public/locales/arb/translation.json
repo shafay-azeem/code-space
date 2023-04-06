@@ -79,5 +79,28 @@
   "InteractWithUsPoint1Heading": "التحسين الرقمي",
   "InteractWithUsPoint1Description": "في شركة Code Space ، نسعى لتحفيز النمو الرقمي. تتأكد إدارة الوسائط الاجتماعية والتصميم الإبداعي وإنتاج الفيديو وخبرة تحسين محركات البحث من أن عملك لا يلبي احتياجاته فحسب بل ينمو رقميًا أيضًا.",
   "InteractWithUsPoint2Heading": "ثورة تكنولوجية",
-  "InteractWithUsPoint2Description": "شهدت صناعة التكنولوجيا طفرة حالية ، وتفخر Code Space بكونها القوة الدافعة وراء تغيير العلامات التجارية من استراتيجيات الأعمال التقليدية لتطوير الحلول عالية التقنية."
+  "InteractWithUsPoint2Description": "شهدت صناعة التكنولوجيا طفرة حالية ، وتفخر Code Space بكونها القوة الدافعة وراء تغيير العلامات التجارية من استراتيجيات الأعمال التقليدية لتطوير الحلول عالية التقنية.",
+
+  "Address": "الجراف , صنعاء , اليمن",
+  "AddressHeading": "عنوان",
+  "EmailHeading": "بريد إلكتروني",
+  "PhoneHeading": "هاتف",
+  "WebsiteLinkHeading": "موقع إلكتروني",
+
+  "Keepintouch": "ابقَ على إتصال",
+  "KeepintouchDescription": "يرجى الاتصال بنا من خلال أي من القنوات التالية إذا كنت ترغب في البقاء على اتصال.",
+  "Copyright": "حقوق النشر",
+  "CodeSpace": "كود سبيس ",
+
+  "OurSpecilitiesHeading": "تخصصاتنا",
+  "OurSpecilitiesDescription": "لماذا يجب عليك اختر لنا",
+
+  "OurSpecilitiesPoint1": "المنتج الكامل لعملك",
+  "OurSpecilitiesPoint1Description": "نحن نبني نموذجًا غنيًا بالمحتوى ولديه واجهة مستخدم جيدة لتقديم تجربة مستخدم متميزة لعملائك.",
+
+  "OurSpecilitiesPoint2": "ودية SEO و SMM",
+  "OurSpecilitiesPoint2Description": "إن نموذجنا متوافق مع تحسين محركات البحث (SEO) و SMM والذي يتوافق مع استراتيجيات التسويق الرقمي الخاصة بك لجلب المزيد من الزيارات العضوية إلى موقع الويب الخاص بك.",
+
+  "OurSpecilitiesPoint3": "كود منظم بشكل جيد",
+  "OurSpecilitiesPoint3Description": "يتم تنظيم بنية الترميز لعناصرنا بحيث يمكن للمطورين الآخرين التعرف بسهولة على النمط وإجراء التحديثات حسب الحاجة."
 }

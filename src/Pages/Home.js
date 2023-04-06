@@ -315,7 +315,7 @@ const Home = () => {
 
         {/* <!-- ================================ Skill =============================== --> */}
 
-        <div id="skill">
+        {/* <div id="skill">
           <div className="skill-main">
             <div className="container">
               <div className="row">
@@ -375,7 +375,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- ================================ RESUME =============================== --> */}
 
@@ -386,13 +386,10 @@ const Home = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>Educational Story</h3>
+                      <h3>{t("OurSpecilitiesHeading")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>
-                        I like to code things from scratch, and enjoy bringing
-                        ideas to life in the browser.
-                      </p>
+                      <p>{t("OurSpecilitiesDescription")}</p>
                     </div>
                   </div>
                 </div>
@@ -405,14 +402,11 @@ const Home = () => {
                           className="fa fa-home resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>School</h3>
-                        <h2>2010-2017</h2>
+                        <h3> {t("OurSpecilitiesDescription")}</h3>
+                        {/* <h2>2010-2017</h2> */}
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>
-                          Completed my school life from Haludbari High School
-                          (H.S.), Khejuri, West Bengal, India.
-                        </p>
+                        <p>{t("OurSpecilitiesPoint1Description")}</p>
                       </div>
                     </div>
                   </div>
@@ -424,22 +418,11 @@ const Home = () => {
                           className="fa fa-graduation-cap resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                        <h3>{t("OurSpecilitiesPoint2")}</h3>
+                        {/* <h2>2017-2020</h2> */}
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>
-                          Achieved my Graduation Degree from{" "}
-                          <a
-                            href="https://www.cclms.org/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
-                          </a>
-                          , Contai, West Bengal, India.
-                        </p>
+                        <p>{t("OurSpecilitiesPoint2Description")}</p>
                       </div>
                     </div>
                   </div>
@@ -451,21 +434,11 @@ const Home = () => {
                           className="fa fa-graduation-cap resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Training &amp; Skill</h3>
-                        <h2>2022-2022</h2>
+                        <h3>{t("OurSpecilitiesPoint3")}</h3>
+                        {/* <h2>2022-2022</h2> */}
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>
-                          Currently learning Full-Stack Web Development from{" "}
-                          <a
-                            href="https://masaischool.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Masai School
-                          </a>
-                          , Bengaluru, India.
-                        </p>
+                        <p>{t("OurSpecilitiesPoint3Description")}</p>
                       </div>
                     </div>
                   </div>
@@ -1248,13 +1221,10 @@ const Home = () => {
                   <div className="row">
                     <div className="col-md-12 col-sm-12">
                       <div className="main-title text-center wow fadeIn">
-                        <h3>Contact Me</h3>
+                        <h3>{t("Keepintouch")}</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>
-                          I’m always open to discussing product design work or
-                          partnership opportunities.
-                        </p>
+                        <p>{t("KeepintouchDescription")}</p>
                       </div>
                     </div>
                   </div>
@@ -1382,8 +1352,8 @@ const Home = () => {
                           className="fa fa-map-marker contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Address</h3>
-                        <p>Kolkata, West Bengal, India</p>
+                        <h3>{t("AddressHeading")}</h3>
+                        <p>{t("Address")}</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
@@ -1392,7 +1362,7 @@ const Home = () => {
                           className="fa fa-envelope contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Email</h3>
+                        <h3>{t("EmailHeading")}</h3>
                         <a
                           href="mailto:contact.sanajitjana@gmail.com"
                           style={{
@@ -1401,7 +1371,7 @@ const Home = () => {
                             fontSize: "17px",
                           }}
                         >
-                          contact.sanajitjana@gmail.com
+                          codespaceyem@gmail.com
                         </a>
                       </div>
                     </div>
@@ -1411,16 +1381,17 @@ const Home = () => {
                           className="fa fa-mobile contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Phone</h3>
+                        <h3> {t("PhoneHeading")}</h3>
                         <a
-                          href="tel:8372876775"
+                          // href="tel:8372876775"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
+                          dir="ltr"
                         >
-                          +91 8372876775
+                          +923422123483
                         </a>
                       </div>
                     </div>
@@ -1430,8 +1401,8 @@ const Home = () => {
                           className="fa fa-television contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Portfolio</h3>
-                        <p>https://sanajitjana.github.io/</p>
+                        <h3>{t("WebsiteLinkHeading")}</h3>
+                        <p dir="ltr">http://localhost:3000/</p>
                       </div>
                     </div>
                   </div>
