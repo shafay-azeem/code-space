@@ -193,7 +193,10 @@ const Home = () => {
             <div className="me-grid">
               <div className="container">
                 <div className="row">
-                  <div className="col-md-4 col-sm-6 col-xs-12 about-col">
+                  <div
+                    className="col-md-4 col-sm-6 col-xs-12 about-col"
+                    dir="rtl"
+                  >
                     <div className="about-image">
                       <img
                         src="assets/img/about-image.jpg"
@@ -255,7 +258,7 @@ const Home = () => {
                         </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Web Design Completed</p>
+                        <p>{t("WebsiteCreatedHeading")}</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -270,7 +273,7 @@ const Home = () => {
                         </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>UI/UX Design Done</p>
+                        <p>{t("LogosHeading")}</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -285,7 +288,7 @@ const Home = () => {
                         </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Website Created</p>
+                        <p>{t("WebDesignCompletedHeading")}</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -300,7 +303,7 @@ const Home = () => {
                         </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Cups Coffee Taken</p>
+                        <p>{t("OurClientsHeading")}</p>
                       </div>
                     </div>
                   </div>
@@ -470,13 +473,10 @@ const Home = () => {
                 <div className="row main-row wow fadeIn">
                   <div className="col-md-12">
                     <div className="main-title text-center">
-                      <h3>Working Experience</h3>
+                      <h3>{t("InteractWithUs")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>
-                        I don’t like to define myself by the work I’ve done. I
-                        define myself by the work I want to do.
-                      </p>
+                      <p>{t("InteractWithUsDescription")}</p>
                     </div>
                   </div>
                 </div>
@@ -491,54 +491,83 @@ const Home = () => {
                         ></i>
                         <h3>
                           <a
-                            href="https://patelgtech.com/"
-                            target="_blank"
+                            // href="https://patelgtech.com/"
+                            // target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
                           >
-                            Patel G Tech LLP
+                            {t("InteractWithUsPoint1Heading")}
                           </a>
                         </h3>
-                        <h4>Repub Member</h4>
-                        <h2>2019-2020</h2>
+                        {/* <h4>Repub Member</h4>
+                        <h2>2019-2020</h2> */}
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>
-                          I did an internship at PATEL G TECH LLP as a
-                          Republication Team Member
-                        </p>
+                        <p>{t("InteractWithUsPoint1Description")}</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-12">
-                    <div className="exp-details" data-wow-delay=".3s">
-                      <div className="exp-hover"></div>
-                      <div className="exp-main">
-                        <i
-                          className="fa fa-building exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>
-                          <a
-                            href="https://uaguria.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
-                          >
-                            Uaguria Software
-                          </a>
-                        </h3>
-                        <h4>Web Developer</h4>
-                        <h2>2020-2022</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          At Uaguria Software, I was working as a Web Developer
-                          &amp; IT Consultant Person
-                        </p>
+
+                  {localStorage.getItem("i18nextLng") === "arb" ? (
+                    <div className="col-md-6 col-sm-12">
+                      <div className="exp-details" data-wow-delay=".3s">
+                        <div className="exp-hover"></div>
+                        <div className="exp-main">
+                          <i
+                            className="fa fa-building exp-icon"
+                            aria-hidden="true"
+                          ></i>
+                          <h3>
+                            <a
+                              // href="https://uaguria.com/"
+                              // target="_blank"
+                              rel="noopener noreferrer"
+                              style={{ color: "#4d4d4d" }}
+                            >
+                              {t("InteractWithUsPoint2Heading")}
+                            </a>
+                          </h3>
+                          {/* <h4>Web Developer</h4>
+                        <h2>2020-2022</h2> */}
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <p>{t("InteractWithUsPoint2Description")}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  ) : (
+                    <div className="col-md-6 col-sm-12">
+                      <div
+                        className="exp-details"
+                        data-wow-delay=".3s"
+                        style={{ minHeight: "292px" }}
+                      >
+                        <div className="exp-hover"></div>
+                        <div className="exp-main">
+                          <i
+                            className="fa fa-building exp-icon"
+                            aria-hidden="true"
+                          ></i>
+                          <h3>
+                            <a
+                              // href="https://uaguria.com/"
+                              // target="_blank"
+                              rel="noopener noreferrer"
+                              style={{ color: "#4d4d4d" }}
+                            >
+                              {t("InteractWithUsPoint2Heading")}
+                            </a>
+                          </h3>
+                          {/* <h4>Web Developer</h4>
+                        <h2>2020-2022</h2> */}
+                          <div className="underline1"></div>
+                          <div className="underline2"></div>
+                          <p>{t("InteractWithUsPoint2Description")}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
                   {/* <div className="col-md-4 col-sm-4">
                     <div className="exp-details" data-wow-delay=".4s">
                       <div className="exp-hover"></div>
@@ -717,7 +746,11 @@ const Home = () => {
                 </div>
                 <div className="row love-row wow fadeIn">
                   <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
+                    <div
+                      className="service-details"
+                      data-wow-delay=".1s"
+                      style={{ minHeight: "560px" }}
+                    >
                       <div className="service-head">
                         <img
                           src="assets/img/service/design-development.jpg"
@@ -743,11 +776,24 @@ const Home = () => {
                           {t("service2Point4")}
                         </p>
                       </div>
+
+                      <a
+                        href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="about-link-2"
+                      >
+                        {t("ReadMore")}
+                      </a>
                     </div>
                   </div>
 
                   <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
+                    <div
+                      className="service-details"
+                      data-wow-delay=".1s"
+                      style={{ minHeight: "560px" }}
+                    >
                       <div className="service-head">
                         <img
                           src="assets/img/service/e-commarce.jpg"
@@ -770,11 +816,35 @@ const Home = () => {
                           {t("service4Point3")}
                         </p>
                       </div>
+                      {localStorage.getItem("i18nextLng") === "arb" ? (
+                        <a
+                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="about-link-2"
+                          style={{ top: "26px" }}
+                        >
+                          {t("ReadMore")}
+                        </a>
+                      ) : (
+                        <a
+                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="about-link-2"
+                        >
+                          {t("ReadMore")}
+                        </a>
+                      )}
                     </div>
                   </div>
 
                   <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
+                    <div
+                      className="service-details"
+                      data-wow-delay=".1s"
+                      style={{ minHeight: "560px" }}
+                    >
                       <div className="service-head">
                         <img
                           src="assets/img/service/website-audit.jpg"
@@ -797,13 +867,27 @@ const Home = () => {
                           {t("service5Point3")}
                         </p>
                       </div>
+
+                      <a
+                        href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="about-link-2"
+                        style={{ top: "26px" }}
+                      >
+                        {t("ReadMore")}
+                      </a>
                     </div>
                   </div>
                 </div>
 
                 <div className="row love-row wow fadeIn">
                   <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
+                    <div
+                      className="service-details"
+                      data-wow-delay=".1s"
+                      style={{ minHeight: "560px" }}
+                    >
                       <div className="service-head">
                         <img
                           src="assets/img/service/mobile-friendly.jpg"
@@ -826,11 +910,24 @@ const Home = () => {
                           <br></br>
                         </p>
                       </div>
+
+                      <a
+                        href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="about-link-2"
+                      >
+                        {t("ReadMore")}
+                      </a>
                     </div>
                   </div>
 
                   <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
+                    <div
+                      className="service-details"
+                      data-wow-delay=".1s"
+                      style={{ minHeight: "560px" }}
+                    >
                       <div className="service-head">
                         <img
                           src="assets/img/service/analytics.jpg"
@@ -853,6 +950,15 @@ const Home = () => {
                           <br></br>
                         </p>
                       </div>
+
+                      <a
+                        href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="about-link-2"
+                      >
+                        {t("ReadMore")}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -865,12 +971,10 @@ const Home = () => {
                     <div className="row">
                       <div className="col-md-12">
                         <div className="main-title text-center wow fadeIn">
-                          <h3>Testimonials</h3>
+                          <h3>{t("TestimonialsHeading")}</h3>
                           <div className="underline1"></div>
                           <div className="underline2"></div>
-                          <p>
-                            People I've worked with have said some nice things
-                          </p>
+                          <p>{t("TestimonialsDescription")}</p>
                         </div>
                       </div>
                     </div>
@@ -908,39 +1012,27 @@ const Home = () => {
                                 <div className="active item">
                                   <blockquote>
                                     <p>
-                                      “Sanajit was a real pleasure to work with
-                                      and we look forward to working with him
-                                      again. He’s definitely the kind of
-                                      developer you can trust with a project
-                                      from start to finish.”
+                                      “{t("TestimonialsDescription1")}”
                                       <br />
-                                      <span>Ishrak Chaudhury</span>
+                                      <span>{t("ShafayAzeem")}</span>
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      “Sanajit's a clear communicator with the
-                                      tenacity and confidence to really dig in
-                                      to tricky design scenarios and the
-                                      collaborative friction that's needed to
-                                      produce excellent work.”
+                                      “{t("TestimonialsDescription2")}”
                                       <br />
-                                      <span>Kamrul Roy</span>
+                                      <span>{t("JohnAlian")}</span>
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      “Sanajit has done a fantastic job overall.
-                                      Not only the site is to design, but the
-                                      code is also very clean and slick. Love
-                                      the way he achieved the translations
-                                      portion of the site.”
+                                      “{t("TestimonialsDescription3")}”
                                       <br />
-                                      <span>Shahadat Mahapatra</span>
+                                      <span>{t("MuhammadFaizan")}</span>
                                     </p>
                                   </blockquote>
                                 </div>
