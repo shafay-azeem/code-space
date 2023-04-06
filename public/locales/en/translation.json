@@ -35,7 +35,7 @@
   "service5Point2": "Search Engine Optimization (SEO)",
   "service5Point3": "Social media marketing",
 
-  "HomeTitle": "Your software house",
+  "HomeTitle": "Your Software House",
   "HomeSubTitle": " We try hard to keep pace with the era and the digital renaissance in all fields",
   "HomeDescription": "Here are some of the reasons that will make you move from paper transactions to digital",
   "HomeDescriptionPoint1": "High data quality",
@@ -72,7 +72,7 @@
   "ShafayAzeem": "Shafay Azeem",
   "JohnAlian": "John Alian",
 
-  "InteractWithUs": "Interact With Us Today For Digital Possibilities",
+  "InteractWithUs": "Connect For Digital Potential",
 
   "InteractWithUsDescription": "We design and develop web and mobile applications for our clients worldwide. Our creative practice yields the best outcomes for our customers while also allowing us to have a great deal of fun.",
   "InteractWithUsPoint1Heading": "Digital Enhancement",
@@ -101,5 +101,11 @@
   "OurSpecilitiesPoint2Description": "Our template is SEO and SMM friendly that aligns with your digital marketing strategies to bring more organic traffic to your website.",
 
   "OurSpecilitiesPoint3": "Nicely Organized Code",
-  "OurSpecilitiesPoint3Description": "The coding structure of our items is organized so other developers can easily recognize and make updates as needed."
+  "OurSpecilitiesPoint3Description": "The coding structure of our items is organized so other developers can easily recognize and make updates as needed.",
+
+  "name": "Name",
+  "phonenumber": "Phone Number",
+  "emailAddress": "Email Address",
+  "message": "Message",
+  "sendBtn": "Send"
 }
