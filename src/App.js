@@ -15,6 +15,7 @@ import ReactHooks from "./Pages/ReactHooks";
 import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
 import { useTranslation } from "react-i18next";
+import ReadMorePage from "./Pages/ReadMorePage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <ScrollToTop>
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route exact path="/readMore" component={ReadMorePage} />
 
               <Route exact path="/react-hooks" component={ReactHooks} />
               <Route exact path="/ui-ux" component={UiUx} />
