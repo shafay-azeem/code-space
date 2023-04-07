@@ -45,7 +45,7 @@ function Header() {
                 <div className="col-md-3 col-sm-3">
                   <div className="site-title">
                     <a href="/#home" style={{ textDecoration: "none" }}>
-                      <h3>Shafay Azeem</h3>
+                      <h3>Code Space</h3>
                     </a>
                   </div>
                 </div>
@@ -92,28 +92,31 @@ function Header() {
                       <li>
                         <a href="/#channels">{t("Channels")}</a>
                       </li>
-                      <li style={{ marginTop: "8px", textAlign: "center" }}>
-                        <img
-                          src={yemen}
-                          style={{
-                            width: "30px",
-                            height: "30px",
-                            paddingLeft: "10px",
-                            cursor: "pointer",
-                          }}
-                          onClick={(e) => handleClick("arb")}
-                        />
 
-                        <img
-                          src={england}
-                          style={{
-                            width: "30px",
-                            height: "30px",
-                            paddingLeft: "10px",
-                            cursor: "pointer",
-                          }}
-                          onClick={(e) => handleClick("en")}
-                        />
+                      <li style={{ marginTop: "8px", textAlign: "center" }}>
+                        {localStorage.getItem("i18nextLng") === "arb" ? (
+                          <img
+                            src={england}
+                            style={{
+                              width: "30px",
+                              height: "30px",
+                              paddingLeft: "10px",
+                              cursor: "pointer",
+                            }}
+                            onClick={(e) => handleClick("en")}
+                          />
+                        ) : (
+                          <img
+                            src={yemen}
+                            style={{
+                              width: "30px",
+                              height: "30px",
+                              paddingLeft: "10px",
+                              cursor: "pointer",
+                            }}
+                            onClick={(e) => handleClick("arb")}
+                          />
+                        )}
                       </li>
                     </ul>
                   </div>
