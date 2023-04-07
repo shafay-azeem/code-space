@@ -379,7 +379,7 @@ const Home = () => {
 
         {/* <!-- ================================ RESUME =============================== --> */}
 
-        <div id="resume">
+        <div id="specialties">
           <div className="resume-content">
             <div className="resume-grid text-center">
               <div className="container">
@@ -443,6 +443,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
+                <div id="career"></div>
                 <div className="row main-row wow fadeIn">
                   <div className="col-md-12">
                     <div className="main-title text-center">
@@ -1024,20 +1025,17 @@ const Home = () => {
 
         {/* <!-- ================================ BLOG ========================== --> */}
 
-        <div id="blog">
+        <div id="contactForm">
           <div className="blog-content">
             <div className="blog-grid">
               <div className="container">
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>My Blog</h3>
+                      <h3>{t("ContactUs")}</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>
-                        The Blog, Which has thoughts on life, work and
-                        everything in between.
-                      </p>
+                      <p>{t("ContactUsDescription")}</p>
                     </div>
                   </div>
                 </div>
@@ -1127,7 +1125,7 @@ const Home = () => {
 
         {/* <!-- ================================ CONTACT ========================== --> */}
 
-        <div id="contact">
+        <div id="channels">
           <div className="contact-content">
             <div className="text-grid">
               <div className="text-grid-main">

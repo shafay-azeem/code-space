@@ -1,5 +1,12 @@
 {
   "Home": "Home",
+  "Service": "Service",
+  "About": "About",
+  "Contact": "Contact",
+  "Specialties": "Specialties",
+  "Channels": "Channels",
+  "Career": "Career",
+
   "WhoWeAreDescription": "We are a leading company in the field of software, and we try our best to keep pace with the world with software and digital life through which business is facilitated, quality is increased, and it is 100% safe and easy to access.",
   "WhoWeAreHeading": "Who we are",
   "HoldOnHeading": "Hold on",
@@ -91,7 +98,7 @@
   "Copyright": "Copyright",
   "CodeSpace": "Code Space",
 
-  "OurSpecilitiesHeading": "Our Specilities",
+  "OurSpecilitiesHeading": "Our Specialties",
   "OurSpecilitiesDescription": "Why You Should Choose Us",
 
   "OurSpecilitiesPoint1": "Complete Product For Your Business",
@@ -107,5 +114,8 @@
   "phonenumber": "Phone Number",
   "emailAddress": "Email Address",
   "message": "Message",
-  "sendBtn": "Send"
+  "sendBtn": "Send",
+
+  "ContactUs": "Contact Us",
+  "ContactUsDescription": "Please use this form to contact us if you have any questions."
 }

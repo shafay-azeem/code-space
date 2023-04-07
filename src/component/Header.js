@@ -75,22 +75,22 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a href="/#about">About</a>
+                        <a href="/#about">{t("About")}</a>
                       </li>
                       <li>
-                        <a href="/#skill">Skill</a>
+                        <a href="/#career">{t("Career")}</a>
                       </li>
                       <li>
-                        <a href="/#resume">Education</a>
+                        <a href="/#specialties">{t("Specialties")}</a>
                       </li>
                       <li>
-                        <a href="/#service">Service</a>
+                        <a href="/#service">{t("Service")}</a>
                       </li>
                       <li>
-                        <a href="/#blog">Blog</a>
+                        <a href="/#contactForm">{t("Contact")}</a>
                       </li>
                       <li>
-                        <a href="/#contact">Contact</a>
+                        <a href="/#channels">{t("Channels")}</a>
                       </li>
                       <li style={{ marginTop: "8px", textAlign: "center" }}>
                         <img
