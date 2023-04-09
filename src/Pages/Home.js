@@ -520,7 +520,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="http://localhost:3000/readMore"
+                        href="http://localhost:3000/web-development"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"
@@ -560,7 +560,7 @@ const Home = () => {
                       </div>
                       {localStorage.getItem("i18nextLng") === "arb" ? (
                         <a
-                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                          href="http://localhost:3000/mobile-application"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="about-link-2"
@@ -570,7 +570,7 @@ const Home = () => {
                         </a>
                       ) : (
                         <a
-                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                          href="http://localhost:3000/mobile-application"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="about-link-2"
@@ -611,7 +611,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                        href="http://localhost:3000/digital-marketing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"
@@ -654,7 +654,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                        href="http://localhost:3000/branding"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"
@@ -694,7 +694,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                        href="http://localhost:3000/content-writing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"

@@ -16,6 +16,10 @@ import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
 import { useTranslation } from "react-i18next";
 import ReadMorePage from "./Pages/ReadMorePage";
+import MobAppReadMore from "./Pages/MobAppReadMore";
+import DigitalMarketingReadMore from "./Pages/DigitalMarketingReadMore";
+import ContentWritingReadMore from "./Pages/ContentWritingReadMore";
+import BrandingReadMore from "./Pages/BrandingReadMore";
 
 function App() {
   return (
@@ -26,7 +30,23 @@ function App() {
           <ScrollToTop>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/readMore" component={ReadMorePage} />
+              <Route exact path="/web-development" component={ReadMorePage} />
+              <Route
+                exact
+                path="/mobile-application"
+                component={MobAppReadMore}
+              />
+              <Route
+                exact
+                path="/digital-marketing"
+                component={DigitalMarketingReadMore}
+              />
+              <Route
+                exact
+                path="/content-writing"
+                component={ContentWritingReadMore}
+              />
+              <Route exact path="/branding" component={BrandingReadMore} />
 
               <Route exact path="/react-hooks" component={ReactHooks} />
               <Route exact path="/ui-ux" component={UiUx} />
