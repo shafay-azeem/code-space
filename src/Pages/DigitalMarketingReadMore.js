@@ -15,7 +15,7 @@ const DigitalMarketingReadMore = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>{t("WhoWeAreHeading")}</h3>
+                      <h3>{t("service5Heading")}</h3>
                       <h4
                         style={{
                           fontSize: "16px",
@@ -65,82 +65,23 @@ const DigitalMarketingReadMore = () => {
                             position: "relative",
                           }}
                         >
-                          {t("HomeSubTitle")}
+                          {t("DigitalMarketingReadMorePointHeading")}
                         </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
+                        {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
+                          <li> {t("DigitalMarketingReadMorePoint1")}</li>
+                          <li> {t("DigitalMarketingReadMorePoint2")}</li>
+                          <li> {t("DigitalMarketingReadMorePoint3")}</li>
+                          <li> {t("DigitalMarketingReadMorePoint4")}</li>
+                          <li> {t("DigitalMarketingReadMorePoint5")}</li>
+                          <li> {t("DigitalMarketingReadMorePoint6")}</li>
                         </ul>
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="me-grid">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-8 col-sm-6 col-xs-12 about-col">
-                    <div className="about-details wow fadeIn">
-                      <div className="main-title left-title text-left wow fadeIn">
-                        <h3>{t("HomeTitle")}</h3>
-                        <h4
-                          style={{
-                            fontSize: "16px",
-                            letterSpacing: "1px",
-                            color: "#efd236",
-                            position: "relative",
-                          }}
-                        >
-                          {t("HomeSubTitle")}
-                        </h4>
-                        <div className="underline1 no-margin"></div>
-                        <div className="underline2 no-margin"></div>
-                      </div>
-                      <p className="wow fadeIn">
-                        {t("HomeDescription")}
-
-                        <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    className="col-md-4 col-sm-6 col-xs-12 about-col"
-                    dir="rtl"
-                  >
-                    <div className="about-image">
-                      <img
-                        src="assets/img/about-image.jpg"
-                        alt="sanajit-jana"
-                        className="about-img wow fadeIn"
-                      />
                     </div>
                   </div>
                 </div>
