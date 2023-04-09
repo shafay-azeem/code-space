@@ -117,5 +117,29 @@
   "sendBtn": "يرسل",
 
   "ContactUs": "اتصل بنا",
-  "ContactUsDescription": "يرجى استخدام هذا النموذج للاتصال بنا إذا كان لديك أي أسئلة."
+  "ContactUsDescription": "يرجى استخدام هذا النموذج للاتصال بنا إذا كان لديك أي أسئلة",
+
+  "BrandingDescriptionRM": "العلامة التجارية هي اسم أو مصطلح أو تصميم أو رمز أو أي ميزة أخرى تحدد سلعة أو خدمة البائع على أنها مميزة عن تلك التي يقدمها البائعون الآخرون",
+
+  "BrandingReadMoreHeading1": "بعض الفوائد من صناعة ماركة خاصة بك ",
+  "BrandingReadMorePoint1": "يمكن للبائعين الآخرين نسخ المنتج بسهولة في السوق ، لكن الماركة ستكون دائمًا فريدة من نوعها ",
+  "BrandingReadMorePoint2": "تمنح الماركة قوة للمنتجات ",
+  "BrandingReadMorePoint3": "لفت انتباه العملاء",
+  "BrandingReadMorePoint4": "كسب ثقة العملاء",
+  "BrandingReadMorePoint5": "المشيء على نسق معين و مبدأ ثابت",
+  "BrandingReadMorePoint6": "المصداقية التامة",
+  "BrandingReadMorePoint7": "رفع قيمة المنتج الخاص بك",
+  "BrandingReadMorePoint8": "التقدم بخطوة على منافسيك",
+  "BrandingReadMorePoint9": "حقوق ملكية الماركة خاصتك",
+  "BrandingReadMorePoint10": "واخيراً صناعة ماركة خاصة بك هي الخطوة الاولى للنجاح",
+
+  "BrandingReadMore2Heading2": "نصائح نقدمها لك قبل صناعة الماركة الخاصة بك ",
+  "BrandingReadMore2Point1": "اعرف من انت و ما الذي تمثلة",
+  "BrandingReadMore2Point2": "افهم جمهورك جيداً  ",
+  "BrandingReadMore2Point3": "ابحث عن مكانك الجميل",
+  "BrandingReadMore2Point4": "أروي قصتك",
+  "BrandingReadMore2Point5": "صمم هويتك ",
+  "BrandingReadMore2Point6": "إبق وفياً لكلمتك ",
+  "BrandingReadMore2Point7": "خذ وقتك الكامل ",
+  "BrandingReadMore2Point8": "كن انت و فريقك شخص واحد "
 }

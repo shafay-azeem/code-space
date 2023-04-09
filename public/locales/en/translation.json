@@ -117,5 +117,29 @@
   "sendBtn": "Send",
 
   "ContactUs": "Contact Us",
-  "ContactUsDescription": "Please use this form to contact us if you have any questions."
+  "ContactUsDescription": "Please use this form to contact us if you have any questions.",
+
+  "BrandingDescriptionRM": "Branding is a name, term, design, symbol, or other feature that identifies a seller's good or service as distinct from those offered by other sellers.",
+
+  "BrandingReadMoreHeading1": "Some of the benefits of creating your own brand",
+  "BrandingReadMorePoint1": "Other sellers can easily copy the product in the market, but the brand will always be unique.",
+  "BrandingReadMorePoint2": "The brand gives strength to the products.",
+  "BrandingReadMorePoint3": "Attract customers' attention",
+  "BrandingReadMorePoint4": "Gain customer trust",
+  "BrandingReadMorePoint5": "Walking on a certain pattern and consistent principle",
+  "BrandingReadMorePoint6": "Complete credibility",
+  "BrandingReadMorePoint7": "Increase the value of your product",
+  "BrandingReadMorePoint8": "One step ahead of your competitors",
+  "BrandingReadMorePoint9": "Your brand equity",
+  "BrandingReadMorePoint10": "Finally, creating your own brand is the first step to success",
+
+  "BrandingReadMore2Heading2": "Tips we give you before creating your own brand",
+  "BrandingReadMore2Point1": "Know who you are and what you stand for",
+  "BrandingReadMore2Point2": "Understand your audience well",
+  "BrandingReadMore2Point3": "Find your sweet spot",
+  "BrandingReadMore2Point4": "Tell your story",
+  "BrandingReadMore2Point5": "Design your identity",
+  "BrandingReadMore2Point6": "Stay true to your word",
+  "BrandingReadMore2Point7": "Take your full time",
+  "BrandingReadMore2Point8": "Be you and your team as one person"
 }

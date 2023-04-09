@@ -15,8 +15,8 @@ const BrandingReadMore = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>{t("WhoWeAreHeading")}</h3>
-                      <h4
+                      <h3>{t("service1Heading")}</h3>
+                      {/* <h4
                         style={{
                           fontSize: "16px",
                           letterSpacing: "1px",
@@ -25,12 +25,12 @@ const BrandingReadMore = () => {
                         }}
                       >
                         {t("HoldOnHeading")}
-                      </h4>
-                      <p>{t("HoldOnDescription")}</p>
+                      </h4> */}
+                      {/* <p>{t("HoldOnDescription")}</p> */}
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>{t("WhoWeAreDescription")}</p>
-                      <p>{t("WhoWeAreDescriptionSub")}</p>
+                      <p>{t("BrandingDescriptionRM")}</p>
+                      {/* <p>{t("WhoWeAreDescriptionSub")}</p> */}
                     </div>
                   </div>
                 </div>
@@ -65,25 +65,25 @@ const BrandingReadMore = () => {
                             position: "relative",
                           }}
                         >
-                          {t("HomeSubTitle")}
+                          {t("BrandingReadMoreHeading1")}
                         </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
+                        {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
+                          <li> {t("BrandingReadMorePoint1")}</li>
+                          <li> {t("BrandingReadMorePoint2")}</li>
+                          <li> {t("BrandingReadMorePoint3")}</li>
+                          <li> {t("BrandingReadMorePoint4")}</li>
+                          <li> {t("BrandingReadMorePoint5")}</li>
+                          <li> {t("BrandingReadMorePoint6")}</li>
+                          <li> {t("BrandingReadMorePoint7")}</li>
+                          <li> {t("BrandingReadMorePoint8")}</li>
+                          <li> {t("BrandingReadMorePoint9")}</li>
+                          <li> {t("BrandingReadMorePoint10")}</li>
                         </ul>
                       </p>
                     </div>
@@ -107,25 +107,23 @@ const BrandingReadMore = () => {
                             position: "relative",
                           }}
                         >
-                          {t("HomeSubTitle")}
+                          {t("BrandingReadMore2Heading2")}
                         </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
+                        {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
+                          <li> {t("BrandingReadMore2Point1")}</li>
+                          <li> {t("BrandingReadMore2Point2")}</li>
+                          <li> {t("BrandingReadMore2Point3")}</li>
+                          <li> {t("BrandingReadMore2Point4")}</li>
+                          <li> {t("BrandingReadMore2Point5")}</li>
+                          <li> {t("BrandingReadMore2Point6")}</li>
+                          <li> {t("BrandingReadMore2Point7")}</li>
+                          <li> {t("BrandingReadMore2Point8")}</li>
                         </ul>
                       </p>
                     </div>
