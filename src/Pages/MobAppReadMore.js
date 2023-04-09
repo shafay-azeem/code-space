@@ -15,8 +15,8 @@ const MobAppReadMore = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>{t("WhoWeAreHeading")}</h3>
-                      <h4
+                      <h3>{t("service4Heading")}</h3>
+                      {/* <h4
                         style={{
                           fontSize: "16px",
                           letterSpacing: "1px",
@@ -25,12 +25,13 @@ const MobAppReadMore = () => {
                         }}
                       >
                         {t("HoldOnHeading")}
-                      </h4>
-                      <p>{t("HoldOnDescription")}</p>
+                      </h4> */}
+                      {/* <p>{t("HoldOnDescription")}</p> */}
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>{t("WhoWeAreDescription")}</p>
-                      <p>{t("WhoWeAreDescriptionSub")}</p>
+                      <p>{t("MobAppDescriptionRM1")}</p>
+                      <p>{t("MobAppDescriptionRM2")}</p>
+                      <p>{t("MobAppDescriptionRM3")}</p>
                     </div>
                   </div>
                 </div>
@@ -65,82 +66,25 @@ const MobAppReadMore = () => {
                             position: "relative",
                           }}
                         >
-                          {t("HomeSubTitle")}
+                          {t("MobAppReadMore1Heading1")}
                         </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
+                        {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
+                          <li> {t("MobAppReadMore1Point1")}</li>
+                          <li> {t("MobAppReadMore1Point2")}</li>
+                          <li>
+                            {t("MobAppReadMore1Point3")}&nbsp;
+                            <a>{t("BrandLink")}</a>
+                          </li>
+                          <li> {t("MobAppReadMore1Point4")}</li>
+                          <li> {t("MobAppReadMore1Point5")}</li>
                         </ul>
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="me-grid">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-8 col-sm-6 col-xs-12 about-col">
-                    <div className="about-details wow fadeIn">
-                      <div className="main-title left-title text-left wow fadeIn">
-                        <h3>{t("HomeTitle")}</h3>
-                        <h4
-                          style={{
-                            fontSize: "16px",
-                            letterSpacing: "1px",
-                            color: "#efd236",
-                            position: "relative",
-                          }}
-                        >
-                          {t("HomeSubTitle")}
-                        </h4>
-                        <div className="underline1 no-margin"></div>
-                        <div className="underline2 no-margin"></div>
-                      </div>
-                      <p className="wow fadeIn">
-                        {t("HomeDescription")}
-
-                        <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    className="col-md-4 col-sm-6 col-xs-12 about-col"
-                    dir="rtl"
-                  >
-                    <div className="about-image">
-                      <img
-                        src="assets/img/about-image.jpg"
-                        alt="sanajit-jana"
-                        className="about-img wow fadeIn"
-                      />
                     </div>
                   </div>
                 </div>

@@ -144,7 +144,6 @@
   "BrandingReadMore2Point8": "Be you and your team as one person",
 
   "WebAndDevDescriptionRM1": "Today with the advent of the internet, the world has become a smaller place.Any kind of information at our fingertips easily. The world of the Internet is amazing and continues to change our lives, the way we communicate, the way we receive and share information and live a good life.",
-
   "WebAndDevDescriptionRM2": "Living in the digital world, having a website is crucial for any business. If a business does not have a website, it loses many business opportunities and potential clients.A business website helps accomplish a number of digital marketing strategies that can help a business grow. Web advertising has a wide reach and is one of the most effective forms of advertising.",
 
   "WebAndDevReadMoreHeading1": "Some of the reasons why you should create your own website",
@@ -156,5 +155,18 @@
   "WebAndDevReadMorePoint6": "Digital marketing through the website",
 
   "WebAndDevReadMore2Heading2": "It's time to create your own website...",
-  "WebAndDevReadMore2Description": "Even if you do not own a business via the Internet and all you have is a local activity, a website can still help your business, and any business trying to establish a name for itself in the modern market needs a website."
+  "WebAndDevReadMore2Description": "Even if you do not own a business via the Internet and all you have is a local activity, a website can still help your business, and any business trying to establish a name for itself in the modern market needs a website.",
+
+  "MobAppDescriptionRM1": "Times have definitely changed. Not so long ago, mobile applications were only associated with large companies and corporations. But that part of the story is history now. Today, majority of small businesses are making use of the advantages of mobile apps to serve their customers in a better way, and generate higher ROI.",
+  "MobAppDescriptionRM2": "The world of business no longer revolves around handing out flyers, printing advertisements, hanging billboards and having your technicians answer all customer inquiries. The world has gone mobile, and so should you!",
+  "MobAppDescriptionRM3": "Let me guess what you might have in mind now; I don't need mobile apps to sell my products to my loyal customers. Mobile app, or no mobile app, I can always keep it.” Well, maybe this is the case now, but in the near future it will be a completely different story, and you should be prepared for this.",
+  "MobAppDescriptionRM4": "I believe that business mobile apps are the driving force for prosperity and success.",
+
+  "MobAppReadMore1Heading1": "Benefits that make you design your own application for your project",
+  "MobAppReadMore1Point1": "Provide better and prompt customer service",
+  "MobAppReadMore1Point2": "Communicate with your customers quickly and easily",
+  "MobAppReadMore1Point3": "Building a stronger",
+  "BrandLink": "brand",
+  "MobAppReadMore1Point4": "Offer more value to your customers",
+  "MobAppReadMore1Point5": "Expanding trust between the customer and your brand"
 }
