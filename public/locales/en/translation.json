@@ -168,5 +168,25 @@
   "MobAppReadMore1Point3": "Building a stronger",
   "BrandLink": "brand",
   "MobAppReadMore1Point4": "Offer more value to your customers",
-  "MobAppReadMore1Point5": "Expanding trust between the customer and your brand"
+  "MobAppReadMore1Point5": "Expanding trust between the customer and your brand",
+
+  "ContentWritingReadMoreDescription": "Content writing, as suggested by the name, is the process of researching, planning, writing and editing content intended for an online platform. It includes everything from web content writing and technical writing to SEO writing. Usually, when you hear the words content-written, you think of articles, but there are different types of business-written content. They include, for example, the following",
+
+  "ContentWritingReadMoreHeading1": "5 reasons why content writing is an important part of marketing",
+  "ContentWritingReadMorePoint1": "Helps build brand strength",
+  "ContentWritingReadMorePoint2": "Content Writing Helps Search Engine Optimization",
+  "MarketingLink": "Marketing",
+  "ContentWritingReadMorePoint3": "Writing content helps establish your project",
+  "ContentWritingReadMorePoint4": "Good content earns many customers from other websites",
+  "WebsitesLink": "websites",
+  "ContentWritingReadMorePoint5": "Good content will always be shared",
+
+  "ContentWriting2ReadMorePoint1": "Content for websites",
+  "ContentWriting2ReadMorePoint2": "Email campaigns",
+
+  "ContentWriting2ReadMorePoint3": "Blogging",
+  "ContentWriting2ReadMorePoint4": "Product Description",
+
+  "ContentWriting2ReadMorePoint5": "Social media posts",
+  "ContentWriting2ReadMorePoint6": "And many other content writing"
 }

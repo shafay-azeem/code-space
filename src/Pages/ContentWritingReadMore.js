@@ -15,8 +15,8 @@ const ContentWritingReadMore = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>{t("WhoWeAreHeading")}</h3>
-                      <h4
+                      <h3>{t("service3Heading")}</h3>
+                      {/* <h4
                         style={{
                           fontSize: "16px",
                           letterSpacing: "1px",
@@ -26,11 +26,10 @@ const ContentWritingReadMore = () => {
                       >
                         {t("HoldOnHeading")}
                       </h4>
-                      <p>{t("HoldOnDescription")}</p>
+                      <p>{t("HoldOnDescription")}</p> */}
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>{t("WhoWeAreDescription")}</p>
-                      <p>{t("WhoWeAreDescriptionSub")}</p>
+                      <p>{t("ContentWritingReadMoreDescription")}</p>
                     </div>
                   </div>
                 </div>
@@ -65,25 +64,24 @@ const ContentWritingReadMore = () => {
                             position: "relative",
                           }}
                         >
-                          {t("HomeSubTitle")}
+                          {t("ContentWritingReadMoreHeading1")}
                         </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
+                        {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
+                          <li>{t("ContentWritingReadMorePoint1")}</li>
+                          <li>
+                            {" "}
+                            {t("ContentWritingReadMorePoint2")}
+                            <a>{t("MarketingLink")}</a>
+                          </li>
+                          <li> {t("ContentWritingReadMorePoint3")}</li>
+                          <li> {t("ContentWritingReadMorePoint4")}</li>
+                          <li> {t("ContentWritingReadMorePoint5")}</li>
                         </ul>
                       </p>
                     </div>
@@ -113,19 +111,15 @@ const ContentWritingReadMore = () => {
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
+                        {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
+                          <li> {t("ContentWriting2ReadMorePoint1")}</li>
+                          <li> {t("ContentWriting2ReadMorePoint2")}</li>
+                          <li> {t("ContentWriting2ReadMorePoint3")}</li>
+                          <li> {t("ContentWriting2ReadMorePoint4")}</li>
+                          <li> {t("ContentWriting2ReadMorePoint5")}</li>
+                          <li> {t("ContentWriting2ReadMorePoint6")}</li>
                         </ul>
                       </p>
                     </div>

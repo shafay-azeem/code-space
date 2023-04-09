@@ -168,5 +168,25 @@
   "MobAppReadMore1Point3": "بناء أقوى",
   "BrandLink": "ماركة تجارية",
   "MobAppReadMore1Point4": "تقديم قيمة أكبر لعملائك",
-  "MobAppReadMore1Point5": "توسيع الثقة بين العميل و علامتك التجارية "
+  "MobAppReadMore1Point5": "توسيع الثقة بين العميل و علامتك التجارية ",
+
+  "ContentWritingReadMoreDescription": "كتابة المحتوى ، كما هو مقترح في الاسم ، هي عملية البحث والتخطيط و الكتابة وتحرير المحتوى المخصص لمنصة عبر الإنترنت. يتضمن كل شيء من كتابة محتوى الويب والكتابة الفنية إلى كتابة تحسين محركات البحث . عادةً ، عندما تسمع الكلمات التي يكتب بها المحتوى ، تفكر في المقالات ، ولكن هناك أنواعًا مختلفة من المحتوى المكتوب للأعمال. وتشمل ، على سبيل المثال ، ما يلي",
+
+  "ContentWritingReadMoreHeading1": "5 أسباب تجعل كتابة المحتوى جزءاً مهماً من التسويق",
+  "ContentWritingReadMorePoint1": "يساعد في بناء قوة الماركة",
+  "ContentWritingReadMorePoint2": "كتابة المحتوى يساعد على تحسين محركات البحث ",
+  "MarketingLink": " التسويق",
+  "ContentWritingReadMorePoint3": "كتابة المحتوى يساعد في تأسيس مشروعك",
+  "ContentWritingReadMorePoint4": "المحتوى الجيد يكسب عملاء كثيرون من مواقع اخرى",
+  "WebsitesLink": "مواقع",
+  "ContentWritingReadMorePoint5": "المحتوى الجيد دائما سيتم مشاركتة",
+
+  "ContentWriting2ReadMorePoint1": "محتوى للمواقع",
+  "ContentWriting2ReadMorePoint2": "حملات البريد الإلكتروني",
+
+  "ContentWriting2ReadMorePoint3": "التدوين",
+  "ContentWriting2ReadMorePoint4": "وصف المنتج",
+
+  "ContentWriting2ReadMorePoint5": "منشورات مواقع التواصل الاجتماعي",
+  "ContentWriting2ReadMorePoint6": "وغيرها الكثير من كتابة المحتوى"
 }
