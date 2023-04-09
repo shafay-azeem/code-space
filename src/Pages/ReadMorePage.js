@@ -16,8 +16,8 @@ const ReadMorePage = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>{t("WhoWeAreHeading")}</h3>
-                      <h4
+                      <h3>{t("service2Heading")}</h3>
+                      {/* <h4
                         style={{
                           fontSize: "16px",
                           letterSpacing: "1px",
@@ -26,12 +26,12 @@ const ReadMorePage = () => {
                         }}
                       >
                         {t("HoldOnHeading")}
-                      </h4>
-                      <p>{t("HoldOnDescription")}</p>
+                      </h4> */}
+                      {/* <p>{t("HoldOnDescription")}</p> */}
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>{t("WhoWeAreDescription")}</p>
-                      <p>{t("WhoWeAreDescriptionSub")}</p>
+                      <p>{t("WebAndDevDescriptionRM1")}</p>
+                      <p>{t("WebAndDevDescriptionRM2")}</p>
                     </div>
                   </div>
                 </div>
@@ -66,25 +66,21 @@ const ReadMorePage = () => {
                             position: "relative",
                           }}
                         >
-                          {t("HomeSubTitle")}
+                          {t("WebAndDevReadMoreHeading1")}
                         </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
+                        {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
+                          <li> {t("WebAndDevReadMorePoint1")}</li>
+                          <li> {t("WebAndDevReadMorePoint2")}</li>
+                          <li> {t("WebAndDevReadMorePoint3")}</li>
+                          <li> {t("WebAndDevReadMorePoint4")}</li>
+                          <li> {t("WebAndDevReadMorePoint5")}</li>
+                          <li> {t("WebAndDevReadMorePoint6")}</li>
                         </ul>
                       </p>
                     </div>
@@ -108,26 +104,13 @@ const ReadMorePage = () => {
                             position: "relative",
                           }}
                         >
-                          {t("HomeSubTitle")}
+                          {t("WebAndDevReadMore2Heading2")}
                         </h4>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        {t("HomeDescription")}
-
-                        <ul style={{ marginTop: "15px" }}>
-                          <li> {t("HomeDescriptionPoint1")}</li>
-                          <li> {t("HomeDescriptionPoint2")}</li>
-                          <li> {t("HomeDescriptionPoint3")}</li>
-                          <li> {t("HomeDescriptionPoint4")}</li>
-                          <li> {t("HomeDescriptionPoint5")}</li>
-                          <li> {t("HomeDescriptionPoint6")}</li>
-                          <li> {t("HomeDescriptionPoint7")}</li>
-                          <li> {t("HomeDescriptionPoint8")}</li>
-                          <li> {t("HomeDescriptionPoint9")}</li>
-                          <li> {t("HomeDescriptionPoint10")}</li>
-                        </ul>
+                        {t("WebAndDevReadMore2Description")}
                       </p>
                     </div>
                   </div>
