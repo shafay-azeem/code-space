@@ -40,16 +40,20 @@ function Header() {
       <div className="menubar">
         <div className="menubar-content">
           <nav className="navbar navbar-default navbar-fixed-top">
-            <div className="container">
+            <div className="container-fluid">
               <div className="row">
-                <div className="col-md-3 col-sm-3">
+                <div className="col-md-2 col-sm-2 logo-column">
                   <div className="site-title">
                     <a href="/#home" style={{ textDecoration: "none" }}>
-                      <h3>Code Space</h3>
+                      <img
+                        src={require("../../src/Pages/logo-2.png")}
+
+                      />
                     </a>
                   </div>
                 </div>
                 <div className="navbar-header">
+
                   <button
                     type="button"
                     className="navbar-toggle collapsed"
@@ -63,7 +67,7 @@ function Header() {
                     <span className="icon-bar"></span>
                   </button>
                 </div>
-                <div className="col-md-9 col-sm-9 navbar-style">
+                <div className="col-md-10 col-sm-10 navbar-style">
                   <div
                     className="collapse navbar-collapse"
                     id="bs-example-navbar-collapse-1"
@@ -89,9 +93,7 @@ function Header() {
                       <li>
                         <a href="/#contactForm">{t("Contact")}</a>
                       </li>
-                      <li>
-                        <a href="/#channels">{t("Channels")}</a>
-                      </li>
+
 
                       <li style={{ marginTop: "8px", textAlign: "center" }}>
                         {localStorage.getItem("i18nextLng") === "arb" ? (
