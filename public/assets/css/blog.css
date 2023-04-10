@@ -150,13 +150,13 @@ body {
   color: black;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #efd236;
+  color: #073093;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  color: #efd236 !important;
+  color: #073093 !important;
   background-color: transparent;
   text-decoration: line-through;
 }
@@ -170,7 +170,7 @@ body {
 .site-title h3 {
   font-family: "Roboto Slab", serif;
   font-size: 26px;
-  color: #efd236;
+  color: #073093;
   margin-top: 23px;
   letter-spacing: 3px;
 }
@@ -220,7 +220,7 @@ body {
 }
 .cd-headline.clip span {
   font-size: 82px;
-  color: #efd236;
+  color: #073093;
   font-family: "Roboto Slab", serif;
   letter-spacing: 2px;
   font-weight: 900;
@@ -366,7 +366,7 @@ section:nth-of-type(2) {
 .underline1 {
   height: 2px;
   width: 100px;
-  background-color: #efd236;
+  background-color: #073093;
   margin: auto;
   margin-top: 20px;
   position: relative;
@@ -374,7 +374,7 @@ section:nth-of-type(2) {
 .underline2 {
   height: 10px;
   width: 10px;
-  background-color: #efd236;
+  background-color: #073093;
   margin: auto;
   margin-top: -6px;
   transform: rotate(-135deg);
@@ -433,17 +433,17 @@ section:nth-of-type(2) {
   border-radius: 5px;
   text-align: center;
   line-height: 50px;
-  border: 1px solid #efd236;
+  border: 1px solid #073093;
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
-  background-color: #efd236;
+  background-color: #073093;
 }
 .love-details:hover .love-icon {
   background-color: white;
-  color: #efd236;
+  color: #073093;
 }
 
 .about-back {
@@ -509,7 +509,7 @@ section:nth-of-type(2) {
   border: 1px solid white;
 }
 .about-social li a:hover {
-  color: #efd236;
+  color: #073093;
 }
 .about-details {
   margin: 0px 30px;
@@ -547,8 +547,8 @@ section:nth-of-type(2) {
 .about-link-1:hover {
   text-decoration: none;
   color: black;
-  background-color: #efd236;
-  border: 1px solid #efd236;
+  background-color: #073093;
+  border: 1px solid #073093;
 }
 .about-link-2 {
   font-size: 16px;
@@ -568,9 +568,9 @@ section:nth-of-type(2) {
 }
 .about-link-2:hover {
   text-decoration: none;
-  color: black;
-  background-color: #efd236;
-  border: 1px solid #efd236;
+  color: white;
+  background-color: #073093;
+  border: 1px solid #073093;
 }
 .work-counter {
   width: 100%;
@@ -634,7 +634,7 @@ section:nth-of-type(2) {
   color: black;
 }
 .blog-icon {
-  color: #efd236;
+  color: #073093;
 }
 .blog-bottom {
   margin-top: 15px;
@@ -653,14 +653,14 @@ section:nth-of-type(2) {
   margin: 0px;
   font-size: 24px;
   margin-bottom: 20px;
-  color: #efd236;
+  color: #073093;
 }
 
 #search {
   height: 40px;
   text-align: left;
   color: black;
-  border: 1px solid #efd236;
+  border: 1px solid #073093;
   margin-bottom: 10px;
 }
 .search-but {
@@ -671,7 +671,7 @@ section:nth-of-type(2) {
   margin: 0px;
   margin-top: 30px;
   font-size: 29px;
-  color: #efd236;
+  color: #073093;
 }
 
 .abt p {
@@ -691,7 +691,7 @@ section:nth-of-type(2) {
   margin: 0px;
   margin-top: 30px;
   font-size: 29px;
-  color: #efd236;
+  color: #073093;
 }
 .cetegory ul {
   padding-left: 0px;
@@ -710,7 +710,7 @@ section:nth-of-type(2) {
 }
 
 .cetegory ul li a:hover {
-  color: #efd236;
+  color: #073093;
   text-decoration: none;
 }
 .no-border {
@@ -723,7 +723,7 @@ section:nth-of-type(2) {
   margin: 0px;
   margin-top: 30px;
   font-size: 29px;
-  color: #efd236;
+  color: #073093;
 }
 .tag ul {
   padding-left: 0px;
@@ -740,7 +740,7 @@ section:nth-of-type(2) {
 .tag ul li a {
   font-size: 16px;
   color: white;
-  background-color: #efd236;
+  background-color: #073093;
   padding: 5px 10px;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -775,8 +775,8 @@ section:nth-of-type(2) {
 .pagination ul li a {
   font-size: 16px;
   color: white;
-  background-color: #efd236;
-  border: 1px solid #efd236;
+  background-color: #073093;
+  border: 1px solid #073093;
   padding: 5px 10px;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -786,7 +786,7 @@ section:nth-of-type(2) {
 }
 
 .pagination ul li a:hover {
-  color: #efd236;
+  color: #073093;
   text-decoration: none;
   background-color: transparent;
 }
@@ -901,36 +901,36 @@ section:nth-of-type(2) {
   width: 100%;
 }
 .btn-success.disabled {
-  background-color: #efd236;
-  border-color: #efd236;
+  background-color: #073093;
+  border-color: #073093;
   color: black;
   cursor: not-allowed;
 }
 .btn.disabled:hover {
-  background-color: #efd236;
-  border-color: #efd236;
+  background-color: #073093;
+  border-color: #073093;
   color: black;
   cursor: not-allowed;
 }
 .btn-success:hover {
   cursor: pointer;
-  background-color: #efd236;
-  border-color: #efd236;
+  background-color: #073093;
+  border-color: #073093;
   color: black;
 }
 .btn-success {
-  background-color: #efd236;
-  border-color: #efd236;
+  background-color: #073093;
+  border-color: #073093;
   color: black;
 }
 .text-danger {
-  color: #efd236;
+  color: #073093;
   position: absolute;
   text-align: center;
   width: 100%;
 }
 .text-success {
-  color: #efd236;
+  color: #073093;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -946,7 +946,7 @@ section:nth-of-type(2) {
 
 .contact-icon {
   font-size: 43px;
-  color: #efd236;
+  color: #073093;
   position: relative;
   margin-left: 0px;
   margin-top: 0px;
@@ -963,7 +963,7 @@ section:nth-of-type(2) {
   position: relative;
   margin-top: 14px;
   font-weight: 700;
-  color: #efd236;
+  color: #073093;
 }
 .contact-col-info p {
   font-size: 17px;
@@ -973,7 +973,7 @@ section:nth-of-type(2) {
   margin-bottom: 0px;
 }
 .copyright-details {
-  /* background-color: #efd236; */
+  /* background-color: #073093; */
   background-image: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
@@ -1204,7 +1204,7 @@ section:nth-of-type(2) {
   }
   .cd-headline.clip span {
     font-size: 42px;
-    color: #efd236;
+    color: #073093;
     font-family: "Roboto Slab", serif;
     letter-spacing: 2px;
     font-weight: 900;

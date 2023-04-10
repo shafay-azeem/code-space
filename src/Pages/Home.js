@@ -142,7 +142,7 @@ const Home = () => {
                         style={{
                           fontSize: "16px",
                           letterSpacing: "1px",
-                          color: "#efd236",
+                          color: "#073093",
                           position: "relative",
                         }}
                       >
@@ -246,7 +246,7 @@ const Home = () => {
                           style={{
                             fontSize: "16px",
                             letterSpacing: "1px",
-                            color: "#efd236",
+                            color: "#073093",
                             position: "relative",
                           }}
                         >
@@ -432,16 +432,7 @@ const Home = () => {
                           className="fa fa-building exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>
-                          <a
-                            // href="https://patelgtech.com/"
-                            // target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
-                          >
-                            {t("InteractWithUsPoint1Heading")}
-                          </a>
-                        </h3>
+                        <h3>{t("InteractWithUsPoint1Heading")}</h3>
                         {/* <h4>Repub Member</h4>
                         <h2>2019-2020</h2> */}
                         <div className="underline1"></div>
@@ -460,16 +451,7 @@ const Home = () => {
                             className="fa fa-building exp-icon"
                             aria-hidden="true"
                           ></i>
-                          <h3>
-                            <a
-                              // href="https://uaguria.com/"
-                              // target="_blank"
-                              rel="noopener noreferrer"
-                              style={{ color: "#4d4d4d" }}
-                            >
-                              {t("InteractWithUsPoint2Heading")}
-                            </a>
-                          </h3>
+                          <h3>{t("InteractWithUsPoint2Heading")}</h3>
                           {/* <h4>Web Developer</h4>
                         <h2>2020-2022</h2> */}
                           <div className="underline1"></div>
@@ -491,16 +473,7 @@ const Home = () => {
                             className="fa fa-building exp-icon"
                             aria-hidden="true"
                           ></i>
-                          <h3>
-                            <a
-                              // href="https://uaguria.com/"
-                              // target="_blank"
-                              rel="noopener noreferrer"
-                              style={{ color: "#4d4d4d" }}
-                            >
-                              {t("InteractWithUsPoint2Heading")}
-                            </a>
-                          </h3>
+                          <h3>{t("InteractWithUsPoint2Heading")}</h3>
                           {/* <h4>Web Developer</h4>
                         <h2>2020-2022</h2> */}
                           <div className="underline1"></div>
@@ -922,9 +895,9 @@ const Home = () => {
                         style={{
                           width: "50%",
                           fontSize: "16px",
-                          backgroundColor: "#EFD236",
-                          borderColor: "#EFD236",
-                          color: "black",
+                          backgroundColor: "#073093",
+                          borderColor: "#073093",
+                          color: "white",
                         }}
                       >
                         {t("sendBtn")}

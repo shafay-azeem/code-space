@@ -20,7 +20,7 @@ const DigitalMarketingReadMore = () => {
                         style={{
                           fontSize: "16px",
                           letterSpacing: "1px",
-                          color: "#efd236",
+                          color: "#073093",
                           position: "relative",
                         }}
                       >
@@ -61,7 +61,7 @@ const DigitalMarketingReadMore = () => {
                           style={{
                             fontSize: "16px",
                             letterSpacing: "1px",
-                            color: "#efd236",
+                            color: "#073093",
                             position: "relative",
                           }}
                         >

@@ -61,7 +61,7 @@ const BrandingReadMore = () => {
                           style={{
                             fontSize: "16px",
                             letterSpacing: "1px",
-                            color: "#efd236",
+                            color: "#073093",
                             position: "relative",
                           }}
                         >
@@ -103,7 +103,7 @@ const BrandingReadMore = () => {
                           style={{
                             fontSize: "16px",
                             letterSpacing: "1px",
-                            color: "#efd236",
+                            color: "#073093",
                             position: "relative",
                           }}
                         >
