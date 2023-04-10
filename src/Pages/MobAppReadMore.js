@@ -57,7 +57,7 @@ const MobAppReadMore = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>{t("HomeTitle")}</h3>
+                        <h3>{t("benefits")}</h3>
                         <h4
                           style={{
                             fontSize: "16px",
