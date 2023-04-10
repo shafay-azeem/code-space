@@ -8,7 +8,13 @@ function Footer() {
   document.body.dir = i18n.dir();
   return (
     <React.StrictMode>
-      <div className="copyright-details">
+      <div
+        className="copyright-details"
+        style={{
+          backgroundImage:
+            "linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%)",
+        }}
+      >
         <div className="about-social-icon text-center">
           <ul className="about-social">
             <li className="wow fadeIn" data-wow-delay=".8s">
@@ -63,8 +69,9 @@ function Footer() {
         </div>
         <div className="copyright">
           {/* <h3>&copy; {currYear}, Made with by Sanajit Jana.</h3> */}
-          <h3>
-            {t("Copyright")} &copy; <a>{t("CodeSpace")}</a>
+          <h3 style={{ color: "white" }}>
+            {t("Copyright")} &copy;{" "}
+            <a style={{ color: "white" }}>{t("CodeSpace")}</a>
           </h3>
         </div>
         {/* <a

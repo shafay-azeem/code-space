@@ -6,27 +6,27 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   height: 100%;
   background-color: transparent;
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../font/glyphicons-halflings-regular.eot');
-  src: url('../font/glyphicons-halflings-regulard41d.eot?#iefix')
-      format('embedded-opentype'),
-    url('../font/glyphicons-halflings-regular.woff') format('woff'),
-    url('../font/glyphicons-halflings-regular.ttf') format('truetype'),
-    url('../font/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
-      format('svg');
+  font-family: "Glyphicons Halflings";
+  src: url("../font/glyphicons-halflings-regular.eot");
+  src: url("../font/glyphicons-halflings-regulard41d.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/glyphicons-halflings-regular.woff") format("woff"),
+    url("../font/glyphicons-halflings-regular.ttf") format("truetype"),
+    url("../font/glyphicons-halflings-regular.svg#glyphicons_halflingsregular")
+      format("svg");
 }
 @font-face {
-  font-family: 'Flaticon';
-  src: url('../font/flaticon.html');
-  src: url('../font/flaticon.html#iefix') format('embedded-opentype'),
-    url('../font/flaticon-2.html') format('woff'),
-    url('../font/flaticon-3.html') format('truetype'),
-    url('../font/flaticon-4.html') format('svg');
+  font-family: "Flaticon";
+  src: url("../font/flaticon.html");
+  src: url("../font/flaticon.html#iefix") format("embedded-opentype"),
+    url("../font/flaticon-2.html") format("woff"),
+    url("../font/flaticon-3.html") format("truetype"),
+    url("../font/flaticon-4.html") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -85,7 +85,12 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  background-image: linear-gradient(to right, #01373c, #005c63, #01373b);
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   /* background-color: #00565d; */
 }
 .navbar-default.small {
@@ -148,7 +153,7 @@ body {
   height: 63px;
 }
 .site-title h3 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 26px;
   color: #efd236;
   margin-top: 23px;
@@ -201,14 +206,14 @@ body {
 .cd-headline.clip span {
   font-size: 82px;
   color: #efd236;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   letter-spacing: 2px;
   font-weight: 900;
 }
 .home-text h3 {
   font-size: 29px;
   color: #f8f8f8;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   letter-spacing: 2px;
   margin-top: 19px;
   line-height: 31px;
@@ -232,7 +237,7 @@ body {
   position: absolute;
 }
 #home-parallex:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -311,7 +316,7 @@ section:nth-of-type(2) {
 }
 .main-title h3 {
   font-size: 34px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   letter-spacing: 2px;
   color: #484848;
   margin-top: 0px;
@@ -371,7 +376,7 @@ section:nth-of-type(2) {
   font-size: 19px;
   letter-spacing: 1px;
   color: black;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   position: relative;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -563,7 +568,7 @@ section:nth-of-type(2) {
 }
 .work-statistics h3 {
   font-size: 30px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   color: black;
   margin: 0px 9px;
   font-weight: 900;
@@ -866,7 +871,7 @@ section:nth-of-type(2) {
   font-size: 23px;
   letter-spacing: 1px;
   color: #4d4d4d;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   position: relative;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -980,7 +985,7 @@ section:nth-of-type(2) {
   font-size: 23px;
   letter-spacing: 1px;
   color: #4d4d4d;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   position: relative;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -1062,7 +1067,7 @@ section:nth-of-type(2) {
 
 .work-title h3 {
   font-size: 34px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   letter-spacing: 2px;
   color: #f05421;
   margin-top: 0px;
@@ -1204,7 +1209,7 @@ section:nth-of-type(2) {
 
 /* Self Clearing Goodness */
 .container:after {
-  content: '\0020';
+  content: "\0020";
   display: block;
   height: 0;
   clear: both;
@@ -1215,7 +1220,7 @@ section:nth-of-type(2) {
 .clearfix:after,
 .row:before,
 .row:after {
-  content: '\0020';
+  content: "\0020";
   display: block;
   overflow: hidden;
   visibility: hidden;
@@ -1301,7 +1306,7 @@ section:nth-of-type(2) {
 
 .fancybox-error {
   color: #444;
-  font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 15px;
   white-space: nowrap;
@@ -1323,7 +1328,7 @@ section:nth-of-type(2) {
 .fancybox-close,
 .fancybox-prev span,
 .fancybox-next span {
-  background-image: url('../img/fancybox_sprite.png');
+  background-image: url("../img/fancybox_sprite.png");
 }
 
 #fancybox-loading {
@@ -1341,7 +1346,7 @@ section:nth-of-type(2) {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url('../img/fancybox_loading.gif') center center no-repeat;
+  background: url("../img/fancybox_loading.gif") center center no-repeat;
 }
 
 .fancybox-close {
@@ -1352,7 +1357,7 @@ section:nth-of-type(2) {
   height: 36px;
   cursor: pointer;
   z-index: 8040;
-  background: url('../img/close.png') center center no-repeat;
+  background: url("../img/close.png") center center no-repeat;
 }
 
 .fancybox-nav {
@@ -1362,7 +1367,7 @@ section:nth-of-type(2) {
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url('../img/blank.html');
+  background: transparent url("../img/blank.html");
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040;
 }
@@ -1430,7 +1435,7 @@ section:nth-of-type(2) {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url('../fancybox_overlay.html');
+  background: url("../fancybox_overlay.html");
 }
 
 .fancybox-overlay-fixed {
@@ -1447,7 +1452,7 @@ section:nth-of-type(2) {
 
 .fancybox-title {
   visibility: hidden;
-  font: normal 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: normal 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   text-shadow: none;
   z-index: 8050;
@@ -1509,12 +1514,12 @@ section:nth-of-type(2) {
   .fancybox-close,
   .fancybox-prev span,
   .fancybox-next span {
-    background-image: url('../fancybox_sprite%402x.html');
+    background-image: url("../fancybox_sprite%402x.html");
     background-size: 44px 152px;
   }
 
   #fancybox-loading div {
-    background-image: url('../fancybox_loading%402x.html');
+    background-image: url("../fancybox_loading%402x.html");
     background-size: 24px 24px;
   }
 }
@@ -1605,7 +1610,7 @@ section:nth-of-type(2) {
   height: 30px;
   text-indent: -9999px;
   background-color: transparent;
-  background-image: url('fancybox_buttons.html');
+  background-image: url("fancybox_buttons.html");
   background-repeat: no-repeat;
   outline: none;
   opacity: 0.8;
@@ -1730,7 +1735,7 @@ section:nth-of-type(2) {
 }
 .service-title h3 {
   font-size: 34px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   letter-spacing: 2px;
   color: #f05421;
   margin-top: 0px;
@@ -1785,7 +1790,7 @@ section:nth-of-type(2) {
   font-size: 19px;
   letter-spacing: 1px;
   color: black;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   position: relative;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -1829,7 +1834,7 @@ section:nth-of-type(2) {
   background-size: cover;
 }
 .testimonial:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1852,7 +1857,7 @@ section:nth-of-type(2) {
 }
 .testimonial-title h3 {
   font-size: 34px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   letter-spacing: 2px;
   color: white;
   margin-top: 0px;
@@ -2114,7 +2119,7 @@ blockquote {
   font-size: 27px;
   color: #383838;
   letter-spacing: 2px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   margin: 0px;
   font-weight: 700;
   text-align: center;
@@ -2344,7 +2349,7 @@ blockquote {
     font-size: 20px;
     letter-spacing: 1px;
     color: #4d4d4d;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     position: relative;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -2498,7 +2503,7 @@ blockquote {
   .cd-headline.clip span {
     font-size: 42px;
     color: #efd236;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     letter-spacing: 2px;
     font-weight: 900;
   }
@@ -2521,7 +2526,7 @@ blockquote {
   .home-text h2 {
     font-size: 34px;
     color: white;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     letter-spacing: 2px;
     font-weight: 900;
   }
@@ -2664,13 +2669,13 @@ blockquote {
   }
 } */
 
-body[dir='rtl'] .logo-column {
+body[dir="rtl"] .logo-column {
   float: right;
 }
-body[dir='rtl'] .navbar-style {
+body[dir="rtl"] .navbar-style {
   float: right;
 }
-body[dir='rtl'] .navbar-toggle {
+body[dir="rtl"] .navbar-toggle {
   float: left;
   margin-top: 20px;
   margin-left: 15px;

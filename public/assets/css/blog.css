@@ -973,7 +973,13 @@ section:nth-of-type(2) {
   margin-bottom: 0px;
 }
 .copyright-details {
-  background-color: #efd236;
+  /* background-color: #efd236; */
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   padding-top: 27px;
   margin-top: 80px;
 }
