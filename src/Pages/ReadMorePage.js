@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import CountUp from "react-countup";
+import HeaderRM from "../component/HeaderRM";
 
 const ReadMorePage = () => {
   const { t, i18n } = useTranslation();
@@ -8,6 +9,7 @@ const ReadMorePage = () => {
 
   return (
     <React.StrictMode>
+      <HeaderRM />
       <div className="container main-page-content">
         <div id="about" style={{ marginTop: "50px" }}>
           <div className="about-content">

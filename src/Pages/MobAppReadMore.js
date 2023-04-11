@@ -1,12 +1,14 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import CountUp from "react-countup";
+import HeaderRM from "../component/HeaderRM";
 
 const MobAppReadMore = () => {
   const { t, i18n } = useTranslation();
   document.body.dir = i18n.dir();
   return (
     <React.StrictMode>
+      <HeaderRM />
       <div className="container main-page-content">
         <div id="about" style={{ marginTop: "50px" }}>
           <div className="about-content">
