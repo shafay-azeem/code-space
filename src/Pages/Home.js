@@ -326,7 +326,7 @@ const Home = () => {
                     <div className="col-md-3 col-sm-6">
                       <div className="work-statistics">
                         <i
-                          className="fa fa-coffee stat-icon"
+                          className="fa fa-users stat-icon"
                           aria-hidden="true"
                         ></i>
                         <h3 className="Count">
@@ -519,7 +519,7 @@ const Home = () => {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-edit service-icon"
+                          className="fa fa-file-code-o service-icon"
                           aria-hidden="true"
                         ></i>
                         <h3>{t("service2Heading")}</h3>
@@ -562,7 +562,7 @@ const Home = () => {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-cart-plus exp-icon"
+                          className="fa fa-mobile exp-icon"
                           aria-hidden="true"
                         ></i>
                         <h3>{t("service4Heading")}</h3>
@@ -696,7 +696,7 @@ const Home = () => {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-tachometer service-icon"
+                          className="fa fa-pencil-square-o service-icon"
                           aria-hidden="true"
                         ></i>
                         <h3>{t("service3Heading")}</h3>
