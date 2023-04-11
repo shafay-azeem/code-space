@@ -608,7 +608,7 @@ const Home = () => {
                     >
                       <div className="service-head">
                         <img
-                          src="assets/img/service/website-audit.jpg"
+                          src="assets/img/service/analytics.jpg"
                           alt="website-audit"
                         />
                       </div>
@@ -691,7 +691,7 @@ const Home = () => {
                     >
                       <div className="service-head">
                         <img
-                          src="assets/img/service/analytics.jpg"
+                          src="assets/img/service/website-audit.jpg"
                           alt="analytics"
                         />
                       </div>
