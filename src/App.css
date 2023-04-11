@@ -88,3 +88,21 @@
   left: 0;
   min-height: 600px;
 } */
+#tsparticles {
+  height: 500px;
+}
+.wrapper {
+  position: relative;
+}
+.text {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  font-size: 34px;
+  letter-spacing: 2px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  line-height: 42px;
+}

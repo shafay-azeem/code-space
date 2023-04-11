@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import CountUp from "react-countup";
+import ParticlesBackground from "../component/ParticlesBackground";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -8,9 +9,13 @@ const Home = () => {
   return (
     <React.StrictMode>
       <div className="container main-page-content">
-        {/* <div id="home"> */}
-        {/* <div id="particles-js"></div> */}
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div className="wrapper" style={{ top: "80px" }}>
+          <ParticlesBackground></ParticlesBackground>
+          <div className="text">
+            <h1 style={{ fontWeight: "900" }}>{t("CodeSpaceHead")}</h1>
+          </div>
+        </div>
+        {/* <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -18,11 +23,9 @@ const Home = () => {
           </ol>
           <div class="carousel-inner">
             <div class="item active">
-              {/* <div id="particles-js"></div> */}
               <img
                 src={require("../Pages/img-20230407-wa0001_720.jpg")}
                 alt="Los Angeles"
-                // style={{ width: "100%" }}
                 className="img-fluid"
               />
             </div>
@@ -30,7 +33,6 @@ const Home = () => {
               <img
                 src={require("../Pages/slide2 (1).jpg")}
                 alt="Chicago"
-                // style={{ width: "100%" }}
                 className="img-fluid"
               />
             </div>
@@ -38,7 +40,6 @@ const Home = () => {
               <img
                 src={require("../Pages/website-hosting-concept-with-bright-light.jpg")}
                 alt="New york"
-                // style={{ width: "100%" }}
                 className="img-fluid"
               />
             </div>
@@ -55,78 +56,7 @@ const Home = () => {
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
-        {/* <div className="home-content-main">
-            <div className="table-cell">
-              <div className="container">
-                <div className="row home-row">
-                  <div className="col-md-12 col-sm-12">
-                    <div className="home-text wow fadeIn text-center">
-                      <div className="about-social-icon text-center">
-                        <ul className="about-social">
-                          <li className="wow fadeIn" data-wow-delay=".4s">
-                            <a
-                              href="https://www.linkedin.com/in/sanajitjana01"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-linkedin"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay=".2s">
-                            <a
-                              href="https://github.com/sanajitjana"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-github"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay=".6s">
-                            <a
-                              href="https://www.instagram.com/sanajitjana01/"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-instagram"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay=".8s">
-                            <a
-                              href="https://twitter.com/sanajitjana01"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-twitter"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay="1s">
-                            <a
-                              href="https://dev.to/sanajitjana"
-                              target="newtab"
-                            >
-                              <i className="fa fa-book" aria-hidden="true"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-        {/* <div className="parallax" data-velocity="-.1"></div>
-          <div className="parallax" data-velocity="-.5" data-fit="525"></div> */}
-        {/* </div> */}
+        </div> */}
 
         {/* <!-- ================================ ABOUT =============================== --> */}
 
