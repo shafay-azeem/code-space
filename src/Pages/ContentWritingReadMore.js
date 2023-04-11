@@ -46,7 +46,7 @@ const ContentWritingReadMore = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/Content 2.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
@@ -131,7 +131,7 @@ const ContentWritingReadMore = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/Content 1.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />

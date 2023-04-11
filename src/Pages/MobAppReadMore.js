@@ -48,7 +48,7 @@ const MobAppReadMore = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/Mobile app 2.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />

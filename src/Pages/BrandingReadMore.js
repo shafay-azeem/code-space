@@ -47,7 +47,7 @@ const BrandingReadMore = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/Branding 1.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
@@ -135,7 +135,7 @@ const BrandingReadMore = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/Branding 2.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />

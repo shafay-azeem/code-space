@@ -47,7 +47,7 @@ const DigitalMarketingReadMore = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/Markeitng 1.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />

@@ -20,7 +20,7 @@ const Home = () => {
             <div class="item active">
               {/* <div id="particles-js"></div> */}
               <img
-                src={require("../Pages/slide2.jpg")}
+                src={require("../Pages/img-20230407-wa0001_720.jpg")}
                 alt="Los Angeles"
                 // style={{ width: "100%" }}
                 className="img-fluid"
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div class="item">
               <img
-                src={require("../Pages/slide2.jpg")}
+                src={require("../Pages/digital-cyberspace-with-numbers-technology-digital-big-data-network-connettion.jpg")}
                 alt="Chicago"
                 // style={{ width: "100%" }}
                 className="img-fluid"
@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             <div class="item">
               <img
-                src={require("../Pages/slide2.jpg")}
+                src={require("../Pages/website-hosting-concept-with-bright-light.jpg")}
                 alt="New york"
                 // style={{ width: "100%" }}
                 className="img-fluid"
@@ -835,7 +835,7 @@ const Home = () => {
           <div className="row">
             <div class="col-lg-6">
               <img
-                src={require("../Pages/g2_480.jpg")}
+                src={require("../Pages/Contact.jpg")}
                 style={{ width: "100%", height: "auto", marginBottom: "10px" }}
               />
             </div>

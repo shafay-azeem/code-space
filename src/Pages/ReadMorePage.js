@@ -48,7 +48,7 @@ const ReadMorePage = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/Web DEv 1.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
@@ -121,7 +121,7 @@ const ReadMorePage = () => {
                   >
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src={require("../../src/Pages/WEb Dev 2.jpg")}
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
