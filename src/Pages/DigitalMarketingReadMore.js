@@ -18,7 +18,7 @@ const DigitalMarketingReadMore = () => {
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
                       <h3>{t("service5Heading")}</h3>
-                      <h4
+                      {/* <h4
                         style={{
                           fontSize: "16px",
                           letterSpacing: "1px",
@@ -27,12 +27,11 @@ const DigitalMarketingReadMore = () => {
                         }}
                       >
                         {t("HoldOnHeading")}
-                      </h4>
-                      <p>{t("HoldOnDescription")}</p>
+                      </h4> */}
+                      {/* <p>{t("HoldOnDescription")}</p> */}
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>{t("WhoWeAreDescription")}</p>
-                      <p>{t("WhoWeAreDescriptionSub")}</p>
+                      <p>{t("DigitalMarketingContent")}</p>
                     </div>
                   </div>
                 </div>

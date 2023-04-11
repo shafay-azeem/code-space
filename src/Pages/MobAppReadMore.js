@@ -34,6 +34,7 @@ const MobAppReadMore = () => {
                       <p>{t("MobAppDescriptionRM1")}</p>
                       <p>{t("MobAppDescriptionRM2")}</p>
                       <p>{t("MobAppDescriptionRM3")}</p>
+                      <p>{t("MobAppDescriptionRM4")}</p>
                     </div>
                   </div>
                 </div>
@@ -79,10 +80,7 @@ const MobAppReadMore = () => {
                         <ul style={{ marginTop: "15px" }}>
                           <li> {t("MobAppReadMore1Point1")}</li>
                           <li> {t("MobAppReadMore1Point2")}</li>
-                          <li>
-                            {t("MobAppReadMore1Point3")}&nbsp;
-                            <a>{t("BrandLink")}</a>
-                          </li>
+                          <li>{t("MobAppReadMore1Point3")}&nbsp;</li>
                           <li> {t("MobAppReadMore1Point4")}</li>
                           <li> {t("MobAppReadMore1Point5")}</li>
                         </ul>

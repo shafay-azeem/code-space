@@ -76,11 +76,7 @@ const ContentWritingReadMore = () => {
 
                         <ul style={{ marginTop: "15px" }}>
                           <li>{t("ContentWritingReadMorePoint1")}</li>
-                          <li>
-                            {" "}
-                            {t("ContentWritingReadMorePoint2")}
-                            <a>{t("MarketingLink")}</a>
-                          </li>
+                          <li>{t("ContentWritingReadMorePoint2")}</li>
                           <li> {t("ContentWritingReadMorePoint3")}</li>
                           <li> {t("ContentWritingReadMorePoint4")}</li>
                           <li> {t("ContentWritingReadMorePoint5")}</li>
@@ -98,7 +94,7 @@ const ContentWritingReadMore = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>{t("HomeTitle")}</h3>
+                        <h3>{t("DigitalRenaissanceThrive")}</h3>
                         <h4
                           style={{
                             fontSize: "16px",

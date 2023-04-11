@@ -165,7 +165,7 @@
   "MobAppReadMore1Heading1": "Benefits that make you design your own application for your project",
   "MobAppReadMore1Point1": "Provide better and prompt customer service",
   "MobAppReadMore1Point2": "Communicate with your customers quickly and easily",
-  "MobAppReadMore1Point3": "Building a stronger",
+  "MobAppReadMore1Point3": "Building a stronger brand",
   "BrandLink": "brand",
   "MobAppReadMore1Point4": "Offer more value to your customers",
   "MobAppReadMore1Point5": "Expanding trust between the customer and your brand",
@@ -174,7 +174,7 @@
 
   "ContentWritingReadMoreHeading1": "5 reasons why content writing is an important part of marketing",
   "ContentWritingReadMorePoint1": "Helps build brand strength",
-  "ContentWritingReadMorePoint2": "Content Writing Helps Search Engine Optimization",
+  "ContentWritingReadMorePoint2": "Content Writing Helps Search Engine Optimization Marketing",
   "MarketingLink": "Marketing",
   "ContentWritingReadMorePoint3": "Writing content helps establish your project",
   "ContentWritingReadMorePoint4": "Good content earns many customers from other websites",
@@ -202,5 +202,10 @@
   "DigitalMarketingReadMorePoint6": "Increase customers and know your brand on a large scale",
 
   "reasons": "Reasons",
-  "benefits": "Benefits"
+  "benefits": "Benefits",
+  "AMust-ReadGuide": "A Must-Read Guide",
+  "BuildingYourDigitalHome": "Building Your Digital Home",
+  "DigitalRenaissanceThrive": "Digital Renaissance Thrive",
+
+  "DigitalMarketingContent": "Digital marketing is a dynamic field that uses online channels and strategies to connect with audiences, drive business objectives, and achieve results. It involves data-driven decision making, global reach, personalized messaging, and continuous optimization. It is essential for businesses to stay competitive, build brand awareness, and drive growth in the digital era."
 }
