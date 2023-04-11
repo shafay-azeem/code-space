@@ -9,20 +9,23 @@ const Home = () => {
   return (
     <React.StrictMode>
       <div className="container main-page-content">
-        <div className="wrapper" style={{ top: "80px" }}>
-          <ParticlesBackground></ParticlesBackground>
-          <div className="text">
-            <h1 style={{ fontWeight: "900" }}>{t("CodeSpaceHead")}</h1>
-          </div>
-        </div>
-        {/* <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="item active">
+              <div className="wrapper">
+                <ParticlesBackground></ParticlesBackground>
+                <div className="text">
+                  <h1 style={{ fontWeight: "900" }}>{t("CodeSpaceHead")}</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item">
               <img
                 src={require("../Pages/img-20230407-wa0001_720.jpg")}
                 alt="Los Angeles"
@@ -56,6 +59,12 @@ const Home = () => {
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
           </a>
+        </div>
+        {/* <div className="wrapper" style={{ top: "20px" }}>
+          <ParticlesBackground></ParticlesBackground>
+          <div className="text">
+            <h1 style={{ fontWeight: "900" }}>{t("CodeSpaceHead")}</h1>
+          </div>
         </div> */}
 
         {/* <!-- ================================ ABOUT =============================== --> */}
