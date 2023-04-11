@@ -77,8 +77,8 @@ const FormExample = () => {
                         <p>
                           Visit my
                           <a
-                            href="https://github.com/sanajitjana"
-                            title="Sanajit Jana"
+                            // href=""
+                            // title=""
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -86,8 +86,8 @@ const FormExample = () => {
                           </a>
                           and do checkout this
                           <a
-                            href="https://github.com/sanajitjana/laravel-curd"
-                            title="Laravel Curd"
+                            // href=""
+                            // title="Laravel Curd"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -279,8 +279,8 @@ const FormExample = () => {
                         </li>
                         <li>
                           <a
-                            href="https://dev.to/sanajitjana"
-                            target="_blank"
+                            // href=""
+                            // target="_blank"
                             rel="noopener noreferrer"
                           >
                             Next Post

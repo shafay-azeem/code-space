@@ -50,7 +50,6 @@ const BrandingReadMore = () => {
                     <div className="about-image">
                       <img
                         src={require("../../src/Pages/Branding 1.jpg")}
-                        alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -138,7 +137,6 @@ const BrandingReadMore = () => {
                     <div className="about-image">
                       <img
                         src={require("../../src/Pages/Branding 2.jpg")}
-                        alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -189,7 +187,7 @@ const BrandingReadMore = () => {
                         ></i>
                         <h3>{t("EmailHeading")}</h3>
                         <a
-                          href="mailto:contact.sanajitjana@gmail.com"
+                          // href=""
                           style={{
                             color: "black",
                             textDecoration: "none",

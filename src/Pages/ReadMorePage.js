@@ -51,7 +51,6 @@ const ReadMorePage = () => {
                     <div className="about-image">
                       <img
                         src={require("../../src/Pages/Web DEv 1.jpg")}
-                        alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -124,7 +123,6 @@ const ReadMorePage = () => {
                     <div className="about-image">
                       <img
                         src={require("../../src/Pages/WEb Dev 2.jpg")}
-                        alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -175,7 +173,7 @@ const ReadMorePage = () => {
                         ></i>
                         <h3>{t("EmailHeading")}</h3>
                         <a
-                          href="mailto:contact.sanajitjana@gmail.com"
+                          // href=""
                           style={{
                             color: "black",
                             textDecoration: "none",

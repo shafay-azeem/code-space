@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div class="item">
               <img
-                src={require("../Pages/digital-cyberspace-with-numbers-technology-digital-big-data-network-connettion.jpg")}
+                src={require("../Pages/slide2 (1).jpg")}
                 alt="Chicago"
                 // style={{ width: "100%" }}
                 className="img-fluid"
@@ -233,7 +233,6 @@ const Home = () => {
                     <div className="about-image">
                       <img
                         src="assets/img/about-image.jpg"
-                        alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -952,7 +951,7 @@ const Home = () => {
                         ></i>
                         <h3>{t("EmailHeading")}</h3>
                         <a
-                          href="mailto:contact.sanajitjana@gmail.com"
+                          // href=""
                           style={{
                             color: "black",
                             textDecoration: "none",
