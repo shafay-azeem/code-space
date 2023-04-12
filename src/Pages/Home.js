@@ -925,6 +925,15 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>{t("WebsiteLinkHeading")}</h3>
+                        <a
+                          href="http://www.codespaceye.com/"
+                          style={{
+                            color: "black",
+                            textDecoration: "none",
+                            fontSize: "17px",
+                          }}
+                          dir="ltr"
+                        ></a>
                         <p dir="ltr">http://www.codespaceye.com/</p>
                       </div>
                     </div>

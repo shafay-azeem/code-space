@@ -211,7 +211,15 @@ const ReadMorePage = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>{t("WebsiteLinkHeading")}</h3>
-                        <p dir="ltr">http://www.codespaceye.com/</p>
+                        <a
+                          href="http://www.codespaceye.com/"
+                          style={{
+                            color: "black",
+                            textDecoration: "none",
+                            fontSize: "17px",
+                          }}
+                          dir="ltr"
+                        > <p dir="ltr">http://www.codespaceye.com/</p></a>
                       </div>
                     </div>
                   </div>

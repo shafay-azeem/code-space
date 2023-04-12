@@ -1,5 +1,6 @@
 {
   "name": "code-space",
+  "homepage": "http://codespaceye.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
