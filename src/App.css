@@ -96,7 +96,6 @@
 #tsparticles {
   height: 400px;
 }
-
 .wrapper {
   position: relative;
 }
@@ -108,11 +107,10 @@
   width: 100%;
   font-size: 34px;
   letter-spacing: 2px;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: bolder;
   line-height: 42px;
 }
-
 @media (max-width: 768px) {
   .container {
     max-width: 768px;
@@ -125,7 +123,6 @@
     top: 35%;
   }
 }
-
 @media (max-width: 576px) {
   .container {
     max-width: 576px;
@@ -136,5 +133,40 @@
   .text {
     font-size: 22px;
     top: 10%;
+  }
+}
+@media (min-width: 820px) and (max-width: 820px) {
+  #tsparticles {
+    height: 250px;
+  }
+}
+@media (min-width: 912px) and (max-width: 912px) {
+  #tsparticles {
+    height: 275px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+  #tsparticles {
+    height: 310px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1280px) {
+  #tsparticles {
+    height: 390px;
+  }
+}
+@media (min-width: 540px) and (max-width: 540px) {
+  #tsparticles {
+    height: 160px;
+  }
+}
+@media (min-width: 280px) and (max-width: 280px) {
+  #tsparticles {
+    height: 78px;
+  }
+}
+@media (min-width: 412px) and (max-width: 412px) {
+  #tsparticles {
+    height: 120px;
   }
 }
