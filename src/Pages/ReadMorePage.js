@@ -81,7 +81,19 @@ const ReadMorePage = () => {
                           <li> {t("WebAndDevReadMorePoint3")}</li>
                           <li> {t("WebAndDevReadMorePoint4")}</li>
                           <li> {t("WebAndDevReadMorePoint5")}</li>
-                          <li> {t("WebAndDevReadMorePoint6")}</li>
+                          <li>
+                            {t("WebAndDevReadMorePoint6")}
+                            <a href="http://www.codespaceye.com/digital-marketing">
+                              <i
+                                className="fa fa-external-link"
+                                aria-hidden="true"
+                                style={{
+                                  marginLeft: "10px",
+                                  fontSize: "12px",
+                                }}
+                              ></i>
+                            </a>
+                          </li>
                         </ul>
                       </p>
                     </div>
@@ -219,7 +231,10 @@ const ReadMorePage = () => {
                             fontSize: "17px",
                           }}
                           dir="ltr"
-                        > http://www.codespaceye.com/</a>
+                        >
+                          {" "}
+                          http://www.codespaceye.com/
+                        </a>
                       </div>
                     </div>
                   </div>

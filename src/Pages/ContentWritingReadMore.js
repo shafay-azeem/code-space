@@ -74,10 +74,47 @@ const ContentWritingReadMore = () => {
                         {/* {t("HomeDescription")} */}
 
                         <ul style={{ marginTop: "15px" }}>
-                          <li>{t("ContentWritingReadMorePoint1")}</li>
-                          <li>{t("ContentWritingReadMorePoint2")}</li>
+                          <li>
+                            {t("ContentWritingReadMorePoint1")}{" "}
+                            <a href="http://www.codespaceye.com/branding">
+                              <i
+                                className="fa fa-external-link"
+                                aria-hidden="true"
+                                style={{
+                                  marginLeft: "10px",
+                                  fontSize: "12px",
+                                }}
+                              ></i>
+                            </a>
+                          </li>
+                          <li>
+                            {t("ContentWritingReadMorePoint2")}{" "}
+                            <a href="http://www.codespaceye.com/digital-marketing">
+                              <i
+                                className="fa fa-external-link"
+                                aria-hidden="true"
+                                style={{
+                                  marginLeft: "10px",
+                                  fontSize: "12px",
+                                }}
+                              ></i>
+                            </a>
+                          </li>
                           <li> {t("ContentWritingReadMorePoint3")}</li>
-                          <li> {t("ContentWritingReadMorePoint4")}</li>
+                          <li>
+                            {" "}
+                            {t("ContentWritingReadMorePoint4")}{" "}
+                            <a href="http://www.codespaceye.com/web-development">
+                              <i
+                                className="fa fa-external-link"
+                                aria-hidden="true"
+                                style={{
+                                  marginLeft: "10px",
+                                  fontSize: "12px",
+                                }}
+                              ></i>
+                            </a>
+                          </li>
                           <li> {t("ContentWritingReadMorePoint5")}</li>
                         </ul>
                       </p>
@@ -225,7 +262,10 @@ const ContentWritingReadMore = () => {
                             fontSize: "17px",
                           }}
                           dir="ltr"
-                        > http://www.codespaceye.com/</a>
+                        >
+                          {" "}
+                          http://www.codespaceye.com/
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -79,7 +79,19 @@ const MobAppReadMore = () => {
                         <ul style={{ marginTop: "15px" }}>
                           <li> {t("MobAppReadMore1Point1")}</li>
                           <li> {t("MobAppReadMore1Point2")}</li>
-                          <li>{t("MobAppReadMore1Point3")}&nbsp;</li>
+                          <li>
+                            {t("MobAppReadMore1Point3")}
+                            <a href="http://www.codespaceye.com/branding">
+                              <i
+                                className="fa fa-external-link"
+                                aria-hidden="true"
+                                style={{
+                                  marginLeft: "10px",
+                                  fontSize: "12px",
+                                }}
+                              ></i>
+                            </a>
+                          </li>
                           <li> {t("MobAppReadMore1Point4")}</li>
                           <li> {t("MobAppReadMore1Point5")}</li>
                         </ul>
@@ -178,7 +190,10 @@ const MobAppReadMore = () => {
                             fontSize: "17px",
                           }}
                           dir="ltr"
-                        > http://www.codespaceye.com/</a>
+                        >
+                          {" "}
+                          http://www.codespaceye.com/
+                        </a>
                       </div>
                     </div>
                   </div>
