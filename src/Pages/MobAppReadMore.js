@@ -170,7 +170,7 @@ const MobAppReadMore = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>{t("WebsiteLinkHeading")}</h3>
-                        <p dir="ltr">http://localhost:3000/</p>
+                        <p dir="ltr">http://www.codespaceye.com/</p>
                       </div>
                     </div>
                   </div>

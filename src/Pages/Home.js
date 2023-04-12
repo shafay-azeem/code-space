@@ -80,7 +80,7 @@ const Home = () => {
                     ></i>
                     <h3 className="Count">
                       +
-                      <CountUp end={347} duration={5} />
+                      <CountUp end={347} duration={10} />
                     </h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
@@ -92,7 +92,7 @@ const Home = () => {
                     <i className="fa fa-crop stat-icon" aria-hidden="true"></i>
                     <h3 className="Count">
                       +
-                      <CountUp end={200} duration={5} />
+                      <CountUp end={200} duration={10} />
                     </h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
@@ -107,7 +107,7 @@ const Home = () => {
                     ></i>
                     <h3 className="Count">
                       +
-                      <CountUp end={220} duration={5} />
+                      <CountUp end={220} duration={10} />
                     </h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
@@ -119,7 +119,7 @@ const Home = () => {
                     <i className="fa fa-users stat-icon" aria-hidden="true"></i>
                     <h3 className="Count">
                       +
-                      <CountUp end={1000} duration={5} />
+                      <CountUp end={1000} duration={10} />
                     </h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
@@ -474,7 +474,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="http://localhost:3000/web-development"
+                        href="http://www.codespaceye.com/web-development"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"
@@ -514,7 +514,7 @@ const Home = () => {
                       </div>
                       {localStorage.getItem("i18nextLng") === "arb" ? (
                         <a
-                          href="http://localhost:3000/mobile-application"
+                          href="http://www.codespaceye.com/mobile-application"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="about-link-2"
@@ -524,7 +524,7 @@ const Home = () => {
                         </a>
                       ) : (
                         <a
-                          href="http://localhost:3000/mobile-application"
+                          href="http://www.codespaceye.com/mobile-application"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="about-link-2"
@@ -565,7 +565,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="http://localhost:3000/digital-marketing"
+                        href="http://www.codespaceye.com/digital-marketing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"
@@ -608,7 +608,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="http://localhost:3000/branding"
+                        href="http://www.codespaceye.com/branding"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"
@@ -648,7 +648,7 @@ const Home = () => {
                       </div>
 
                       <a
-                        href="http://localhost:3000/content-writing"
+                        href="http://www.codespaceye.com/content-writing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="about-link-2"
@@ -925,7 +925,7 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>{t("WebsiteLinkHeading")}</h3>
-                        <p dir="ltr">http://localhost:3000/</p>
+                        <p dir="ltr">http://www.codespaceye.com/</p>
                       </div>
                     </div>
                   </div>
