@@ -68,10 +68,10 @@ const ParticlesBackground = () => {
             directions: "none",
             enable: true,
             outModes: {
-              default: "bounce",
+              default: "null",
             },
             random: false,
-            speed: 6,
+            speed: 3,
             straight: false,
           },
           number: {
