@@ -933,8 +933,7 @@ const Home = () => {
                             fontSize: "17px",
                           }}
                           dir="ltr"
-                        ></a>
-                        <p dir="ltr">http://www.codespaceye.com/</p>
+                        > http://www.codespaceye.com/</a>
                       </div>
                     </div>
                   </div>

@@ -178,7 +178,7 @@ const MobAppReadMore = () => {
                             fontSize: "17px",
                           }}
                           dir="ltr"
-                        > <p dir="ltr">http://www.codespaceye.com/</p></a>
+                        > http://www.codespaceye.com/</a>
                       </div>
                     </div>
                   </div>
