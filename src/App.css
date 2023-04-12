@@ -88,9 +88,15 @@
   left: 0;
   min-height: 600px;
 } */
+/* @media only screen and (max-width: 768px) {
+  #tsparticles {
+    height: 108px;
+  }
+} */
 #tsparticles {
   height: 400px;
 }
+
 .wrapper {
   position: relative;
 }
@@ -105,4 +111,30 @@
   font-family: "Roboto Slab", serif;
   font-weight: bolder;
   line-height: 42px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  #tsparticles {
+    height: 230px;
+  }
+  .text {
+    font-size: 28px;
+    top: 35%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
+  #tsparticles {
+    height: 110px;
+  }
+  .text {
+    font-size: 22px;
+    top: 10%;
+  }
 }

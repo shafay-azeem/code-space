@@ -18,8 +18,9 @@ const Home = () => {
           </ol>
           <div class="carousel-inner">
             <div class="item active">
-              <div className="wrapper">
+              <div className="wrapper ">
                 <ParticlesBackground></ParticlesBackground>
+
                 <div className="text">
                   <h1 style={{ fontWeight: "900" }}>{t("CodeSpaceHead")}</h1>
                 </div>
@@ -66,6 +67,69 @@ const Home = () => {
             <h1 style={{ fontWeight: "900" }}>{t("CodeSpaceHead")}</h1>
           </div>
         </div> */}
+
+        <div className="work-counter text-center">
+          <div className="counter">
+            <div className="container">
+              <div className="row wow fadeIn">
+                <div className="col-md-3 col-sm-6">
+                  <div className="work-statistics">
+                    <i
+                      className="fa fa-file-code-o stat-icon"
+                      aria-hidden="true"
+                    ></i>
+                    <h3 className="Count">
+                      +
+                      <CountUp end={347} duration={5} />
+                    </h3>
+                    <div className="underline1"></div>
+                    <div className="underline2"></div>
+                    <p>{t("WebsiteCreatedHeading")}</p>
+                  </div>
+                </div>
+                <div className="col-md-3 col-sm-6">
+                  <div className="work-statistics">
+                    <i className="fa fa-crop stat-icon" aria-hidden="true"></i>
+                    <h3 className="Count">
+                      +
+                      <CountUp end={200} duration={5} />
+                    </h3>
+                    <div className="underline1"></div>
+                    <div className="underline2"></div>
+                    <p>{t("LogosHeading")}</p>
+                  </div>
+                </div>
+                <div className="col-md-3 col-sm-6">
+                  <div className="work-statistics">
+                    <i
+                      className="fa fa-check-circle stat-icon"
+                      aria-hidden="true"
+                    ></i>
+                    <h3 className="Count">
+                      +
+                      <CountUp end={220} duration={5} />
+                    </h3>
+                    <div className="underline1"></div>
+                    <div className="underline2"></div>
+                    <p>{t("WebDesignCompletedHeading")}</p>
+                  </div>
+                </div>
+                <div className="col-md-3 col-sm-6">
+                  <div className="work-statistics">
+                    <i className="fa fa-users stat-icon" aria-hidden="true"></i>
+                    <h3 className="Count">
+                      +
+                      <CountUp end={1000} duration={5} />
+                    </h3>
+                    <div className="underline1"></div>
+                    <div className="underline2"></div>
+                    <p>{t("OurClientsHeading")}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* <!-- ================================ ABOUT =============================== --> */}
 
@@ -214,73 +278,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="work-counter text-center">
-              <div className="counter">
-                <div className="container">
-                  <div className="row wow fadeIn">
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-pencil-square-o stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">
-                          <CountUp end={347} duration={5} />
-                        </h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>{t("WebsiteCreatedHeading")}</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-crop stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">
-                          {" "}
-                          <CountUp end={200} duration={5} />
-                        </h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>{t("LogosHeading")}</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-bolt stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">
-                          {" "}
-                          <CountUp end={220} duration={5} />
-                        </h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>{t("WebDesignCompletedHeading")}</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-users stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">
-                          {" "}
-                          <CountUp end={1000} duration={5} />
-                        </h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>{t("OurClientsHeading")}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -306,7 +303,7 @@ const Home = () => {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                         <i
-                          className="fa fa-home resume-icon"
+                          className="fa fa-trophy resume-icon"
                           aria-hidden="true"
                         ></i>
                         <h3> {t("OurSpecilitiesDescription")}</h3>
@@ -322,7 +319,7 @@ const Home = () => {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                         <i
-                          className="fa fa-graduation-cap resume-icon"
+                          className="fa fa-thumbs-up resume-icon"
                           aria-hidden="true"
                         ></i>
                         <h3>{t("OurSpecilitiesPoint2")}</h3>
@@ -338,7 +335,7 @@ const Home = () => {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                         <i
-                          className="fa fa-graduation-cap resume-icon"
+                          className="fa fa-indent resume-icon"
                           aria-hidden="true"
                         ></i>
                         <h3>{t("OurSpecilitiesPoint3")}</h3>
