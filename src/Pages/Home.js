@@ -1,15 +1,42 @@
-import React, { Suspense } from "react";
+import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import CountUp from "react-countup";
 import ParticlesBackground from "../component/ParticlesBackground";
+import emailjs from "@emailjs/browser";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
   document.body.dir = i18n.dir();
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_73p9r2v",
+        "template_032fr3u",
+        form.current,
+        "_OfKh4ngui8wn8Aa9"
+      )
+      .then(
+        (result) => {
+          alert("SEND");
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <React.StrictMode>
       <div className="container main-page-content">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div
+          id="myCarousel"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="500"
+        >
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -61,12 +88,6 @@ const Home = () => {
             <span class="sr-only">Next</span>
           </a>
         </div>
-        {/* <div className="wrapper" style={{ top: "20px" }}>
-          <ParticlesBackground></ParticlesBackground>
-          <div className="text">
-            <h1 style={{ fontWeight: "900" }}>{t("CodeSpaceHead")}</h1>
-          </div>
-        </div> */}
 
         <div className="work-counter text-center">
           <div className="counter">
@@ -131,9 +152,60 @@ const Home = () => {
           </div>
         </div>
 
+        {/* Meet The Founder */}
+        <div className="me-grid">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4 col-sm-6 col-xs-12 about-col" dir="rtl">
+                <div className="about-image">
+                  <img
+                    src={require("../../src/Pages/Layer 1.jpg")}
+                    className="about-img wow fadeIn"
+                  />
+                </div>
+              </div>
+              <div className="col-md-8 col-sm-6 col-xs-12 about-col">
+                <div className="about-details wow fadeIn">
+                  <div className="main-title left-title text-left wow fadeIn">
+                    <h3>{t("Meetthefounder")}</h3>
+                    <h4
+                      style={{
+                        fontSize: "16px",
+                        letterSpacing: "1px",
+                        color: "#073093",
+                        position: "relative",
+                      }}
+                    >
+                      {t("BrandingReadMore2Heading2")}
+                    </h4>
+                    <div className="underline1 no-margin"></div>
+                    <div className="underline2 no-margin"></div>
+                  </div>
+                  <p
+                    className="wow fadeIn"
+                    style={{ marginTop: "-10px", textAlign: "justify" }}
+                  >
+                    {/* {t("HomeDescription")} */}
+                    <p>
+                      {t("MeetthefounderDescription1")}
+                      <br></br>
+                      <br></br>
+                      {t("MeetthefounderDescription3")}
+                      <br></br>
+                      <br></br>
+                      {t("MeetthefounderDescription4")}
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Meet The Founder */}
+
         {/* <!-- ================================ ABOUT =============================== --> */}
 
-        <div id="about">
+        <div id="about" style={{ marginTop: "-40px" }}>
           <div className="about-content">
             <div className="love-grid text-center">
               <div className="container">
@@ -257,7 +329,7 @@ const Home = () => {
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
-                      <p className="wow fadeIn">
+                      <p className="wow fadeIn" style={{ marginTop: "5px" }}>
                         {t("HomeDescription")}
 
                         <ul style={{ marginTop: "15px" }}>
@@ -283,7 +355,7 @@ const Home = () => {
 
         {/* <!-- ================================ RESUME =============================== --> */}
 
-        <div id="specialties">
+        <div id="specialties" style={{ marginTop: "-90px" }}>
           <div className="resume-content">
             <div className="resume-grid text-center">
               <div className="container">
@@ -426,7 +498,7 @@ const Home = () => {
 
         {/* <!-- ============================================== SERVICE ===================================================== --> */}
 
-        <div id="service">
+        <div id="service" style={{ marginTop: "-60px" }}>
           <div className="service-content">
             <div className="service-grid text-center">
               <div className="container">
@@ -687,7 +759,7 @@ const Home = () => {
                               className="carousel slide"
                               id="fade-quote-carousel"
                               data-ride="carousel"
-                              data-interval="3000"
+                              data-interval="2000"
                             >
                               <ol className="carousel-indicators">
                                 <li
@@ -776,7 +848,7 @@ const Home = () => {
             </div>
             <div class="col-lg-6">
               <div class="contact-box ml-3">
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="form-group mt-2">
@@ -825,8 +897,10 @@ const Home = () => {
                     </div>
 
                     <div class="col-lg-12 text-center">
-                      <a
-                        className="btn btn-warning"
+                      <input
+                        type="submit"
+                        class="btn btn-warning "
+                        value={t("sendBtn")}
                         style={{
                           width: "50%",
                           fontSize: "16px",
@@ -834,9 +908,7 @@ const Home = () => {
                           borderColor: "#073093",
                           color: "white",
                         }}
-                      >
-                        {t("sendBtn")}
-                      </a>
+                      />
                     </div>
                   </div>
                 </form>
@@ -933,7 +1005,10 @@ const Home = () => {
                             fontSize: "17px",
                           }}
                           dir="ltr"
-                        > http://www.codespaceye.com/</a>
+                        >
+                          {" "}
+                          http://www.codespaceye.com/
+                        </a>
                       </div>
                     </div>
                   </div>

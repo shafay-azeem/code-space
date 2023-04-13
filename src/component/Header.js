@@ -45,15 +45,11 @@ function Header() {
                 <div className="col-md-2 col-sm-2 logo-column">
                   <div className="site-title">
                     <a href="/#home" style={{ textDecoration: "none" }}>
-                      <img
-                        src={require("../../src/Pages/logo-2.png")}
-
-                      />
+                      <img src={require("../../src/Pages/logo-2.png")} />
                     </a>
                   </div>
                 </div>
                 <div className="navbar-header">
-
                   <button
                     type="button"
                     className="navbar-toggle collapsed"
@@ -72,7 +68,12 @@ function Header() {
                     className="collapse navbar-collapse"
                     id="bs-example-navbar-collapse-1"
                   >
-                    <ul className="nav navbar-nav">
+                    <ul
+                      className="nav navbar-nav"
+                      data-toggle="collapse"
+                      data-target="#bs-example-navbar-collapse-1"
+                      aria-expanded="false"
+                    >
                       <li>
                         <a href="/#home" className="active">
                           {t("Home")}
@@ -94,30 +95,45 @@ function Header() {
                         <a href="/#contactForm">{t("Contact")}</a>
                       </li>
 
-
-                      <li style={{ marginTop: "8px", textAlign: "center" }}>
+                      <li style={{ textAlign: "center" }}>
                         {localStorage.getItem("i18nextLng") === "arb" ? (
-                          <img
-                            src={england}
-                            style={{
-                              width: "30px",
-                              height: "30px",
-                              paddingLeft: "10px",
-                              cursor: "pointer",
-                            }}
+                          // <img
+                          //   src={england}
+                          //   style={{
+                          //     width: "30px",
+                          //     height: "30px",
+                          //     paddingLeft: "10px",
+                          //     cursor: "pointer",
+                          //   }}
+                          //   onClick={(e) => handleClick("en")}
+                          // />
+                          <a
                             onClick={(e) => handleClick("en")}
-                          />
+                            style={{ color: "white", cursor: "pointer" }}
+                          >
+                            إنجليزي
+                          </a>
                         ) : (
-                          <img
-                            src={yemen}
+                          // <img
+                          //   src={yemen}
+                          //   style={{
+                          //     width: "30px",
+                          //     height: "30px",
+                          //     paddingLeft: "10px",
+                          //     cursor: "pointer",
+                          //   }}
+                          //   onClick={(e) => handleClick("arb")}
+                          // />
+                          <a
                             style={{
-                              width: "30px",
-                              height: "30px",
-                              paddingLeft: "10px",
+                              color: "white",
+
                               cursor: "pointer",
                             }}
                             onClick={(e) => handleClick("arb")}
-                          />
+                          >
+                            Arb
+                          </a>
                         )}
                       </li>
                     </ul>

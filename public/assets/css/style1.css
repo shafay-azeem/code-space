@@ -89,7 +89,7 @@ body {
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(0, 112, 155, 1) 100%
   );
   /* background-color: #00565d; */
 }
@@ -2636,9 +2636,9 @@ blockquote {
     margin-bottom: 0px;
   }
 }
-@media (min-width: 768px) and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 820px) {
   .navbar-default .navbar-nav > li > a {
-    font-size: 13px !important;
+    font-size: 10px !important;
   }
 }
 /* @media screen and (min-width: 1100px) {
@@ -2687,6 +2687,5 @@ body[dir="rtl"] .navbar-toggle {
 }
 
 body[dir="ltr"] .navbar-collapse.collapse {
-  display: block;
-  max-width: 100%;
+  min-width: 100%;
 }
