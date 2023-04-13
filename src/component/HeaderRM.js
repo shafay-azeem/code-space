@@ -66,7 +66,10 @@ const HeaderRM = () => {
                     className="collapse navbar-collapse"
                     id="bs-example-navbar-collapse-2"
                   >
-                    <ul className="nav navbar-nav">
+                    <ul className="nav navbar-nav"
+                      data-toggle="collapse"
+                      data-target="#bs-example-navbar-collapse-1"
+                      aria-expanded="false">
                       <li>
                         <a href="/#home" className="active">
                           {t("Home")}
