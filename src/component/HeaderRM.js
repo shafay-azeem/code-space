@@ -73,29 +73,25 @@ const HeaderRM = () => {
                         </a>
                       </li>
 
-                      <li style={{ marginTop: "8px", textAlign: "center" }}>
+                      <li style={{ textAlign: "center" }}>
                         {localStorage.getItem("i18nextLng") === "arb" ? (
-                          <img
-                            src={england}
-                            style={{
-                              width: "30px",
-                              height: "30px",
-                              paddingLeft: "10px",
-                              cursor: "pointer",
-                            }}
+                          <a
                             onClick={(e) => handleClick("en")}
-                          />
+                            style={{ color: "white", cursor: "pointer" }}
+                          >
+                            إنجليزي
+                          </a>
                         ) : (
-                          <img
-                            src={yemen}
+                          <a
                             style={{
-                              width: "30px",
-                              height: "30px",
-                              paddingLeft: "10px",
+                              color: "white",
+
                               cursor: "pointer",
                             }}
                             onClick={(e) => handleClick("arb")}
-                          />
+                          >
+                            Arb
+                          </a>
                         )}
                       </li>
                     </ul>

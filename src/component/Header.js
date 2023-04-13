@@ -97,16 +97,6 @@ function Header() {
 
                       <li style={{ textAlign: "center" }}>
                         {localStorage.getItem("i18nextLng") === "arb" ? (
-                          // <img
-                          //   src={england}
-                          //   style={{
-                          //     width: "30px",
-                          //     height: "30px",
-                          //     paddingLeft: "10px",
-                          //     cursor: "pointer",
-                          //   }}
-                          //   onClick={(e) => handleClick("en")}
-                          // />
                           <a
                             onClick={(e) => handleClick("en")}
                             style={{ color: "white", cursor: "pointer" }}
@@ -114,16 +104,6 @@ function Header() {
                             إنجليزي
                           </a>
                         ) : (
-                          // <img
-                          //   src={yemen}
-                          //   style={{
-                          //     width: "30px",
-                          //     height: "30px",
-                          //     paddingLeft: "10px",
-                          //     cursor: "pointer",
-                          //   }}
-                          //   onClick={(e) => handleClick("arb")}
-                          // />
                           <a
                             style={{
                               color: "white",
