@@ -95,25 +95,55 @@ function Header() {
                         <a href="/#contactForm">{t("Contact")}</a>
                       </li>
 
-                      <li style={{ textAlign: "center" }}>
+                      <li style={{ textAlign: "center", marginTop: "8px" }}>
                         {localStorage.getItem("i18nextLng") === "arb" ? (
-                          <a
-                            onClick={(e) => handleClick("en")}
-                            style={{ color: "white", cursor: "pointer" }}
-                          >
-                            إنجليزي
-                          </a>
+                          <div>
+                            <img
+                              src={england}
+                              style={{
+                                width: "30px",
+                                height: "30px",
+                                paddingLeft: "6px",
+                                cursor: "pointer",
+                              }}
+                              onClick={(e) => handleClick("en")}
+                            />
+                            <a
+                              onClick={(e) => handleClick("en")}
+                              style={{
+                                color: "white",
+                                cursor: "pointer",
+                                paddingLeft: "6px",
+                                textDecoration: "none",
+                              }}
+                            >
+                              Eng
+                            </a>
+                          </div>
                         ) : (
-                          <a
-                            style={{
-                              color: "white",
-
-                              cursor: "pointer",
-                            }}
-                            onClick={(e) => handleClick("arb")}
-                          >
-                            Arb
-                          </a>
+                          <div>
+                            <img
+                              src={yemen}
+                              style={{
+                                width: "30px",
+                                height: "30px",
+                                paddingLeft: "6px",
+                                cursor: "pointer",
+                              }}
+                              onClick={(e) => handleClick("arb")}
+                            />
+                            <a
+                              style={{
+                                color: "white",
+                                paddingLeft: "6px",
+                                cursor: "pointer",
+                                textDecoration: "none",
+                              }}
+                              onClick={(e) => handleClick("arb")}
+                            >
+                              عربي
+                            </a>
+                          </div>
                         )}
                       </li>
                     </ul>
