@@ -3,10 +3,28 @@ import { useTranslation } from "react-i18next";
 import CountUp from "react-countup";
 import ParticlesBackground from "../component/ParticlesBackground";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
   document.body.dir = i18n.dir();
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const nextButton = document.querySelector(".right.carousel-control");
+    const handleClick = () => {
+      setCurrentSlide(currentSlide + 1);
+    };
+    nextButton.addEventListener("click", handleClick);
+    const interval = setInterval(() => {
+      setCurrentSlide((currentSlide + 1) % 4);
+    }, 4000);
+    return () => {
+      nextButton.removeEventListener("click", handleClick);
+      clearInterval(interval);
+    };
+  }, [currentSlide]);
 
   const form = useRef();
   const sendEmail = (e) => {
@@ -33,19 +51,35 @@ const Home = () => {
       <div className="container main-page-content">
         <div
           id="myCarousel"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
-          data-interval="500"
+          data-interval="false"
         >
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
+          <ol className="carousel-indicators">
+            <li
+              data-target="#myCarousel"
+              data-slide-to="0"
+              className={currentSlide === 0 ? "active" : ""}
+            ></li>
+            <li
+              data-target="#myCarousel"
+              data-slide-to="1"
+              className={currentSlide === 1 ? "active" : ""}
+            ></li>
+            <li
+              data-target="#myCarousel"
+              data-slide-to="2"
+              className={currentSlide === 2 ? "active" : ""}
+            ></li>
+            <li
+              data-target="#myCarousel"
+              data-slide-to="3"
+              className={currentSlide === 3 ? "active" : ""}
+            ></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <div className="wrapper ">
+          <div className="carousel-inner">
+            <div className={currentSlide === 0 ? "item active" : "item"}>
+              <div className="wrapper">
                 <ParticlesBackground></ParticlesBackground>
 
                 <div className="text">
@@ -53,21 +87,21 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div class="item">
+            <div className={currentSlide === 1 ? "item active" : "item"}>
               <img
                 src={require("../Pages/img-20230407-wa0001_720.jpg")}
                 alt="Los Angeles"
                 className="img-fluid"
               />
             </div>
-            <div class="item">
+            <div className={currentSlide === 2 ? "item active" : "item"}>
               <img
                 src={require("../Pages/slide2 (1).jpg")}
                 alt="Chicago"
                 className="img-fluid"
               />
             </div>
-            <div class="item">
+            <div className={currentSlide === 3 ? "item active" : "item"}>
               <img
                 src={require("../Pages/website-hosting-concept-with-bright-light.jpg")}
                 alt="New york"
@@ -75,17 +109,21 @@ const Home = () => {
               />
             </div>
           </div>
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
+          <a
+            className="left carousel-control"
+            href="#myCarousel"
+            data-slide="prev"
+          >
+            <span className="glyphicon glyphicon-chevron-left"></span>
+            <span className="sr-only">Previous</span>
           </a>
           <a
-            class="right carousel-control"
+            className="right carousel-control"
             href="#myCarousel"
             data-slide="next"
           >
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
+            <span className="glyphicon glyphicon-chevron-right"></span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
 
