@@ -176,7 +176,7 @@ const Home = () => {
                         position: "relative",
                       }}
                     >
-                      {t("BrandingReadMore2Heading2")}
+                      {t("MeetthefounderSubDescription")}
                     </h4>
                     <div className="underline1 no-margin"></div>
                     <div className="underline2 no-margin"></div>
