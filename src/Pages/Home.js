@@ -20,7 +20,7 @@ const Home = () => {
       )
       .then(
         (result) => {
-          alert("SEND");
+          alert(t("contactUsAlert"));
           form.current.reset();
         },
         (error) => {
