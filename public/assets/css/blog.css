@@ -110,7 +110,13 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  background-color: rgba(108, 108, 108, 0.47);
+  /* background-color: rgba(108, 108, 108, 0.47); */
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(0, 34, 47) 100%
+  );
 }
 .navbar-default.small {
   background-color: white;

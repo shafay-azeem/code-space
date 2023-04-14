@@ -12,7 +12,7 @@ function Footer() {
         className="copyright-details"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 112, 155, 1) 100%)",
+            "linear-gradient(90deg,rgba(2, 0, 36, 1) 0%,rgba(9, 9, 121, 1) 35%,rgb(0, 34, 47) 100%)",
         }}
       >
         <div className="about-social-icon text-center">
