@@ -107,7 +107,7 @@
   width: 100%;
   font-size: 34px;
   letter-spacing: 2px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: bolder;
   line-height: 42px;
 }
@@ -119,8 +119,11 @@
     height: 230px;
   }
   .text {
-    font-size: 28px;
-    top: 35%;
+    top: 30%;
+  }
+
+  .text h1 {
+    font-size: 25px;
   }
 }
 @media (max-width: 576px) {
@@ -131,18 +134,35 @@
     height: 110px;
   }
   .text {
-    font-size: 22px;
-    top: 10%;
+    top: 15%;
+  }
+  .text h1 {
+    font-size: 15px;
   }
 }
+
 @media (min-width: 820px) and (max-width: 820px) {
   #tsparticles {
     height: 250px;
+  }
+  .text {
+    top: 30%;
+  }
+
+  .text h1 {
+    font-size: 25px;
   }
 }
 @media (min-width: 912px) and (max-width: 912px) {
   #tsparticles {
     height: 275px;
+  }
+  .text {
+    top: 32%;
+  }
+
+  .text h1 {
+    font-size: 25px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -159,14 +179,35 @@
   #tsparticles {
     height: 160px;
   }
+  .text {
+    top: 25%;
+  }
+
+  .text h1 {
+    font-size: 20px;
+  }
 }
 @media (min-width: 280px) and (max-width: 280px) {
   #tsparticles {
     height: 78px;
   }
+  .text {
+    top: 10%;
+  }
+
+  .text h1 {
+    font-size: 10px;
+  }
 }
 @media (min-width: 412px) and (max-width: 412px) {
   #tsparticles {
     height: 120px;
+  }
+  .text {
+    top: 15%;
+  }
+
+  .text h1 {
+    font-size: 15px;
   }
 }
