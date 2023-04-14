@@ -192,7 +192,7 @@ const ReadMorePage = () => {
                             fontSize: "17px",
                           }}
                         >
-                          codespaceyem@gmail.com
+                          info@codespaceye.com
                         </a>
                       </div>
                     </div>
