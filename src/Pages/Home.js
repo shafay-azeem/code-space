@@ -755,7 +755,7 @@ const Home = () => {
                     >
                       <div className="service-head">
                         <img
-                          src="assets/img/service/website-audit.jpg"
+                          src="assets/img/service/content-management.jpg"
                           alt="analytics"
                         />
                       </div>
