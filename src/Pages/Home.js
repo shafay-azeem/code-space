@@ -746,6 +746,46 @@ const Home = () => {
                       </a>
                     </div>
                   </div>
+
+                  <div className="col-md-4 col-sm-6">
+                    <div
+                      className="service-details"
+                      data-wow-delay=".1s"
+                      style={{ minHeight: "560px" }}
+                    >
+                      <div className="service-head">
+                        <img
+                          src="assets/img/service/website-audit.jpg"
+                          alt="analytics"
+                        />
+                      </div>
+                      <div className="service-bottom">
+                        <i
+                          className="fa fa-film service-icon"
+                          aria-hidden="true"
+                        ></i>
+                        <h3>{t("service6Heading")}</h3>
+                        <div className="underline1"></div>
+                        <div className="underline2"></div>
+                        <p>
+                          {t("service6Point1")}
+                          <br></br> {t("service6Point2")}
+                          <br></br>
+                          {t("service6Point3")}
+                          <br></br>
+                        </p>
+                      </div>
+
+                      <a
+                        href="http://localhost:3000/animation"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="about-link-2"
+                      >
+                        {t("ReadMore")}
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

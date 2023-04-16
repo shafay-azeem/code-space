@@ -42,6 +42,11 @@
   "service5Point2": "Search Engine Optimization (SEO)",
   "service5Point3": "Social media marketing",
 
+  "service6Heading": "Animation",
+  "service6Point1": "2D Animation",
+  "service6Point2": "3D Animation",
+  "service6Point3": "Whiteboard Animation",
+
   "HomeTitle": "Your Software House",
   "HomeSubTitle": " We try hard to keep pace with the era and the digital renaissance in all fields",
   "HomeDescription": "Here are some of the reasons that will make you move from paper transactions to digital",
@@ -218,5 +223,16 @@
   "MeetthefounderDescription3": "At CODESPACE, we believe in providing personalized services that meet the unique needs of each of our clients. We work closely with our clients to understand their goals and develop customized solutions that help them achieve success.",
 
   "MeetthefounderDescription4": "Thank you for considering CODESPACE for your software needs. We look forward to working with you!",
-  "contactUsAlert": "Thank you! We'll get back to you soon."
+  "contactUsAlert": "Thank you! We'll get back to you soon.",
+
+  "AnimationReadMoreHeading1": "Create Animation Videos",
+  "AnimationReadMoreDescription": "Animation is a powerful marketing tool that can help businesses to communicate their message in an engaging and memorable way. With its attention-grabbing visuals and ability to tell a story, animation can be used to create ads, explainer videos, social media content, and more. By customizing the animation to match a brand's identity and messaging, businesses can increase brand awareness and create a consistent brand image across different marketing channels. Animation can also help to simplify complex ideas and increase viewers' understanding of a product or service. Its versatility and effectiveness make it a valuable asset for any business looking to elevate their marketing efforts and stand out from the competition. ",
+
+  "AnimationReadMoreReasonsHeading": "There are several reasons why people should consider making animation videos for their buisnesses :",
+  "AnimationReadMoreReasons1": "Engaging and Memorable: Animation videos are engaging and can be used to communicate complex ideas in a simple and memorable way. They are effective in capturing and retaining viewers' attention, and can help to convey your message in a way that sticks with them.  ",
+  "AnimationReadMoreReasons2": "Versatile: Animation videos can be used in a wide range of contexts, such as marketing, education, and entertainment. They can be used to explain complex concepts, promote products or services, or entertain audiences.  ",
+  "AnimationReadMoreReasons3": "Cost-Effective: Animation videos can be a cost-effective way to create high-quality content. Unlike live-action videos, which require sets, actors, and crew, animation videos can be created with just a few animators and software.",
+  "AnimationReadMoreReasons4": "Customizable: Animation videos can be customized to fit your brand and messaging. You can choose the style, characters, and settings to match your brand identity and create a unique video that stands out.  ",
+  "AnimationReadMoreReasons5": "Timeless: Animation videos are timeless and can be used for years to come. Unlike live-action videos, which may become outdated as fashion and trends change, animation videos can remain relevant and effective for a long time.  ",
+  "AnimationReadMoreReasons6": "Overall, animation videos can be an effective tool for communicating ideas, promoting products, and engaging audiences. They are versatile, cost-effective, customizable, timeless, and engaging, making them a valuable asset for any business or individual.  "
 }

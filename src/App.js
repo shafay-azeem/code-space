@@ -20,6 +20,7 @@ import MobAppReadMore from "./Pages/MobAppReadMore";
 import DigitalMarketingReadMore from "./Pages/DigitalMarketingReadMore";
 import ContentWritingReadMore from "./Pages/ContentWritingReadMore";
 import BrandingReadMore from "./Pages/BrandingReadMore";
+import AnimationReadMore from "./Pages/AnimationReadMore";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
                 component={ContentWritingReadMore}
               />
               <Route exact path="/branding" component={BrandingReadMore} />
+              <Route exact path="/animation" component={AnimationReadMore} />
 
               <Route exact path="/react-hooks" component={ReactHooks} />
               <Route exact path="/ui-ux" component={UiUx} />
